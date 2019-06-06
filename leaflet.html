@@ -18,13 +18,37 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-<select id="measureName" onChange=""></select>
 
-    <div id="mapid" class="leaflet-map"></div>
+<table>
+  <tr>
+    <td>Measure:</td>
+    <td><select id="measureName" onChange=""></select></td>
+  </tr>
+  <tr>
+      <td>Minimum Measure Percent:</td>
+      <td>
+          <div class="slidecontainer">
+              <input type="range" min="1" max="100" value="0" class="slider" id="minPercent">
+            </div>
+      </td>
+    </tr>
+    <tr>
+        <td>Maximum Measure Percent:</td>
+        <td>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="100" class="slider" id="maxPercent">
+              </div>
+        </td>
+      </tr>
+  </table>
+
+    <div id="map" class="leaflet-map"></div>
     <script>
 
     
