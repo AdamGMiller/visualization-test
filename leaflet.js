@@ -25,14 +25,14 @@ function displayMapPoints() {
     (a.numerator / a.denominator * 100.0) <= maxMeasurePercent &&
     a.latitude);
 
-   var maxTotal = Math.max(...filteredDataPoints.map(a => a.total));
+   var maxdenominator = Math.max(...filteredDataPoints.map(a => a.denominator));
    var maxRadius = 4000;
    var minRadius = 1000;
 
    filteredDataPoints.forEach(point => {
     var comment =
     '<p>' + point.clinic + '</p>' +
-    point.measureName + '<br/>' +
+    point.measureName + ' ' + point.year + '<br/>' +
     '<b>' +
     parseFloat(point.numerator / point.denominator * 100.0).toFixed(2) + "%" +
     '</b>' +
@@ -51,11 +51,12 @@ function displayMapPoints() {
         color: 'black',
         fillColor: hsv2rgb(h, s, 1),
         fillOpacity: 0.5,
-        radius: minRadius + (point.total / maxTotal * maxRadius),
+        radius: minRadius + (point.denominator / maxdenominator * maxRadius),
     }).addTo(measureCircleLayer);
 
     circle.bindPopup(comment);
-});
+    });
+    console.log(dataPoints);
 }
 
 function setupMap()
@@ -146,8 +147,8 @@ $.getJSON("measure.json", function (data) {
             clinic: item[9],
             measureName: item[11],
             numerator: item[13],
-            denominator: item[12],
-            total: item[14],
+            rate: item[12],
+            denominator: item[14],
             latitude: item[15][2],
             longitude: item[15][1],
         }
@@ -159,7 +160,7 @@ $.getJSON("measure.json", function (data) {
     dataPoints.map(item => {
         var comment =
             '<p>' + item.clinic + '</p>' +
-            item.measureName + '<br/>' +
+            item.measureName + ' ' + item.year + '<br/>' +
             '<b>' +
             parseFloat(item.numerator / item.denominator * 100.0).toFixed(2) + "%" +
             '</b>' +

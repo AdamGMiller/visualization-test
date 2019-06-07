@@ -1,0 +1,967 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "u8tb-sa6w",
+      "name" : "All Payer Claims Database (APCD) Quality Measures",
+      "attribution" : "Utah Department of Health, Office of Health Care Statistics",
+      "averageRating" : 0,
+      "category" : "Health",
+      "createdAt" : 1449782003,
+      "description" : "These data are quality measures for each Utah small area calculated by the Utah Department of Health, Office of Healthcare Statistics (OHCS) using Utah’s All Payer Claims Database (APCD).",
+      "displayType" : "table",
+      "downloadCount" : 220,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1462483472,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 16844239,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1453322113,
+      "publicationGroup" : 5969095,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1453322014,
+      "rowsUpdatedBy" : "6e2a-qi88",
+      "tableId" : 7247338,
+      "totalTimesRated" : 0,
+      "viewCount" : 1376,
+      "viewLastModified" : 1462474059,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1453322113,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 382007,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1453322113,
+        "workflowId" : 870,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "6e2a-qi88",
+          "displayName" : "lsavoie"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 238683059,
+        "name" : "Small Area Code",
+        "dataTypeName" : "number",
+        "fieldName" : "small_area_code",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 33194259,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 315,
+          "average" : "31.04444444444444",
+          "largest" : "61",
+          "null" : 5,
+          "top" : [ {
+            "item" : "34.200000000000003",
+            "count" : 20
+          }, {
+            "item" : "35",
+            "count" : 19
+          }, {
+            "item" : "36",
+            "count" : 18
+          }, {
+            "item" : "37",
+            "count" : 17
+          }, {
+            "item" : "38",
+            "count" : 16
+          }, {
+            "item" : "39",
+            "count" : 15
+          }, {
+            "item" : "40",
+            "count" : 14
+          }, {
+            "item" : "41",
+            "count" : 13
+          }, {
+            "item" : "42",
+            "count" : 12
+          }, {
+            "item" : "43",
+            "count" : 11
+          }, {
+            "item" : "44",
+            "count" : 10
+          }, {
+            "item" : "45",
+            "count" : 9
+          }, {
+            "item" : "46",
+            "count" : 8
+          }, {
+            "item" : "47",
+            "count" : 7
+          }, {
+            "item" : "48",
+            "count" : 6
+          }, {
+            "item" : "49",
+            "count" : 5
+          }, {
+            "item" : "50",
+            "count" : 4
+          }, {
+            "item" : "51",
+            "count" : 3
+          }, {
+            "item" : "52",
+            "count" : 2
+          }, {
+            "item" : "53",
+            "count" : 1
+          } ],
+          "smallest" : "1",
+          "sum" : "9779.000000000000030"
+        },
+        "format" : { }
+      }, {
+        "id" : 238683064,
+        "name" : "Small Area Name",
+        "dataTypeName" : "text",
+        "fieldName" : "small_area_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33194260,
+        "width" : 200,
+        "cachedContents" : {
+          "non_null" : 320,
+          "largest" : "Woods Cross/North Salt Lake",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Taylorsville (West)",
+            "count" : 20
+          }, {
+            "item" : "Murray",
+            "count" : 19
+          }, {
+            "item" : "Midvale",
+            "count" : 18
+          }, {
+            "item" : "West Jordan (NE) V2",
+            "count" : 17
+          }, {
+            "item" : "West Jordan (SE)",
+            "count" : 16
+          }, {
+            "item" : "West Jordan (West)/Copperton",
+            "count" : 15
+          }, {
+            "item" : "South Jordan",
+            "count" : 14
+          }, {
+            "item" : "Sandy (Center)",
+            "count" : 13
+          }, {
+            "item" : "Sandy (NE)",
+            "count" : 12
+          }, {
+            "item" : "Sandy (SE)",
+            "count" : 11
+          }, {
+            "item" : "Riverton/Draper",
+            "count" : 10
+          }, {
+            "item" : "Tooele Co",
+            "count" : 9
+          }, {
+            "item" : "Lehi/Cedar Valley",
+            "count" : 8
+          }, {
+            "item" : "American Fork/Alpine",
+            "count" : 7
+          }, {
+            "item" : "Pleasant Grove/Lindon",
+            "count" : 6
+          }, {
+            "item" : "Orem (North)",
+            "count" : 5
+          }, {
+            "item" : "Orem (West)",
+            "count" : 4
+          }, {
+            "item" : "Orem (East)",
+            "count" : 3
+          }, {
+            "item" : "Provo (North)/BYU",
+            "count" : 2
+          }, {
+            "item" : "Provo (South)",
+            "count" : 1
+          } ],
+          "smallest" : "American Fork/Alpine"
+        },
+        "format" : { }
+      }, {
+        "id" : 238683073,
+        "name" : "Description",
+        "dataTypeName" : "text",
+        "fieldName" : "description",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33194258,
+        "width" : 408,
+        "cachedContents" : {
+          "non_null" : 320,
+          "largest" : "Wellchild Visits in first 15 months of life (W15)",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)",
+            "count" : 20
+          }, {
+            "item" : "Breast Cancer Screening",
+            "count" : 19
+          }, {
+            "item" : "Chlamydia Screening (CHL)",
+            "count" : 18
+          }, {
+            "item" : "Diabetes Care Hemoglobin Testing",
+            "count" : 17
+          }, {
+            "item" : "Wellchild Visits in first 15 months of life (W15)",
+            "count" : 16
+          } ],
+          "smallest" : "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)"
+        },
+        "format" : { }
+      }, {
+        "id" : 238683074,
+        "name" : "Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "rate",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 33194263,
+        "width" : 108,
+        "cachedContents" : {
+          "non_null" : 320,
+          "average" : "0.5209375",
+          "largest" : "0.88",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.48",
+            "count" : 20
+          }, {
+            "item" : "0.39",
+            "count" : 19
+          }, {
+            "item" : "0.47",
+            "count" : 18
+          }, {
+            "item" : "0.52",
+            "count" : 17
+          }, {
+            "item" : "0.56",
+            "count" : 16
+          }, {
+            "item" : "0.54",
+            "count" : 15
+          }, {
+            "item" : "0.53",
+            "count" : 14
+          }, {
+            "item" : "0.59",
+            "count" : 13
+          }, {
+            "item" : "0.44",
+            "count" : 12
+          }, {
+            "item" : "0.31",
+            "count" : 11
+          }, {
+            "item" : "0.25",
+            "count" : 10
+          }, {
+            "item" : "0.83",
+            "count" : 9
+          }, {
+            "item" : "0.86",
+            "count" : 8
+          }, {
+            "item" : "0.85",
+            "count" : 7
+          }, {
+            "item" : "0.87",
+            "count" : 6
+          }, {
+            "item" : "0.82",
+            "count" : 5
+          }, {
+            "item" : "0.79",
+            "count" : 4
+          }, {
+            "item" : "0.84",
+            "count" : 3
+          }, {
+            "item" : "0.45",
+            "count" : 2
+          }, {
+            "item" : "0.35",
+            "count" : 1
+          } ],
+          "smallest" : "0.07",
+          "sum" : "166.70"
+        },
+        "format" : { }
+      }, {
+        "id" : 238683075,
+        "name" : "Qualifying Population Count",
+        "dataTypeName" : "number",
+        "fieldName" : "qualifying_population_count",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 33194261,
+        "width" : 179,
+        "cachedContents" : {
+          "non_null" : 320,
+          "average" : "543.58125",
+          "largest" : "3382",
+          "null" : 0,
+          "top" : [ {
+            "item" : "145",
+            "count" : 20
+          }, {
+            "item" : "120",
+            "count" : 19
+          }, {
+            "item" : "75",
+            "count" : 18
+          }, {
+            "item" : "65",
+            "count" : 17
+          }, {
+            "item" : "112",
+            "count" : 16
+          }, {
+            "item" : "70",
+            "count" : 15
+          }, {
+            "item" : "67",
+            "count" : 14
+          }, {
+            "item" : "127",
+            "count" : 13
+          }, {
+            "item" : "49",
+            "count" : 12
+          }, {
+            "item" : "37",
+            "count" : 11
+          }, {
+            "item" : "321",
+            "count" : 10
+          }, {
+            "item" : "133",
+            "count" : 9
+          }, {
+            "item" : "522",
+            "count" : 8
+          }, {
+            "item" : "142",
+            "count" : 7
+          }, {
+            "item" : "213",
+            "count" : 6
+          }, {
+            "item" : "106",
+            "count" : 5
+          }, {
+            "item" : "71",
+            "count" : 4
+          }, {
+            "item" : "176",
+            "count" : 3
+          }, {
+            "item" : "286",
+            "count" : 2
+          }, {
+            "item" : "94",
+            "count" : 1
+          } ],
+          "smallest" : "14",
+          "sum" : "173946"
+        },
+        "format" : { }
+      }, {
+        "id" : 238683077,
+        "name" : "Service Count",
+        "dataTypeName" : "number",
+        "fieldName" : "service_count",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 33194262,
+        "width" : 116,
+        "cachedContents" : {
+          "non_null" : 320,
+          "average" : "310.303125",
+          "largest" : "1941",
+          "null" : 0,
+          "top" : [ {
+            "item" : "243",
+            "count" : 20
+          }, {
+            "item" : "46",
+            "count" : 19
+          }, {
+            "item" : "8",
+            "count" : 18
+          }, {
+            "item" : "19",
+            "count" : 17
+          }, {
+            "item" : "49",
+            "count" : 16
+          }, {
+            "item" : "36",
+            "count" : 15
+          }, {
+            "item" : "27",
+            "count" : 14
+          }, {
+            "item" : "38",
+            "count" : 13
+          }, {
+            "item" : "35",
+            "count" : 12
+          }, {
+            "item" : "24",
+            "count" : 11
+          }, {
+            "item" : "34",
+            "count" : 10
+          }, {
+            "item" : "270",
+            "count" : 9
+          }, {
+            "item" : "75",
+            "count" : 8
+          }, {
+            "item" : "98",
+            "count" : 7
+          }, {
+            "item" : "50",
+            "count" : 6
+          }, {
+            "item" : "33",
+            "count" : 5
+          }, {
+            "item" : "18",
+            "count" : 4
+          }, {
+            "item" : "44",
+            "count" : 3
+          }, {
+            "item" : "81",
+            "count" : 2
+          }, {
+            "item" : "148",
+            "count" : 1
+          } ],
+          "smallest" : "1",
+          "sum" : "99297"
+        },
+        "format" : { }
+      }, {
+        "id" : 238683078,
+        "name" : "Reporting Period",
+        "dataTypeName" : "text",
+        "fieldName" : "reporting_period",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33194257,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 320,
+          "largest" : "2014/01-2014/12",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2014/01-2014/12",
+            "count" : 20
+          } ],
+          "smallest" : "2014/01-2014/12"
+        },
+        "format" : { }
+      } ],
+      "disabledFeatureFlags" : [ "allow_comments" ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "custom_fields" : {
+          "Dataset Summary" : {
+            "Posting Frequency" : "Annual",
+            "Organization" : "Utah Department of Health ",
+            "Contact Information" : "healthcarestat@utah.gov",
+            "Time Period" : "2014",
+            "Granularity" : "Health Small Statistical Areas are the 63 small health statistical areas in Utah. These boundaries were developed by the Utah Department of Health by combining neighboring ZIP code areas within a county to create 63 small areas of approximately 33,500 persons.",
+            "Dataset Owner" : "Office of Health Care Statistics",
+            "Data Frequency" : "Annual"
+          },
+          "Disclaimers" : {
+            "Limitations" : "APCD does not receive claims for Medicare Part A or Part B. Results may be skewed for measures with inclusion criteria for age ranges 65 and over.",
+            "Disclaimer" : " Time windows used as inclusion and exclusion criteria for quality measures may vary across measures. HEDIS measure definitions are subject to periodic review and change by NCQA. APCD is processed semiannually and data is subject to change as new data become available. "
+          },
+          "Microsites" : {
+            "Microsites" : "Department of Health"
+          },
+          "Notes" : {
+            "Notes" : "The quality measures are based on Healthcare Effectiveness Data and Information Set (HEDIS) specifications which are maintained by the National Committee for Quality Assurance (NCQA).   Avoidance of Antibiotics in Adults with Acute Bronchitis: The percentage of adults 18-64 years of age with a diagnosis of acute bronchitis who were not dispensed an antibiotic prescription within three days of diagnosis (a higher rate is better). - See more at: http://www.ncqa.org/ReportCards/HealthPlans/StateofHealthCareQuality/2015TableofContents/AcuteBronchitis.aspx  Breast Cancer Screening: The percentage of women 50–74 years of age who had at least one mammogram to screen for breast cancer in the past two years. - See more at: http://www.ncqa.org/ReportCards/HealthPlans/StateofHealthCareQuality/2015TableofContents/BreastCancer.aspx   Chlamydia Screening: The percentage of women 16–24 years of age who were identified as sexually active and who had at least one test for chlamydia during the measurement year. - See more at: http://www.ncqa.org/ReportCards/HealthPlans/StateofHealthCareQuality/2015TableofContents/ChlamydiaScreening.aspx  Diabetes Care - Hemoglobin A1C (HbA1c) Testing: The percentage of adults 18–75 years of age with diabetes (type 1 and type 2) who had Hemoglobin A1c (HbA1c) testing. - See more at: http://www.ncqa.org/ReportCards/HealthPlans/StateofHealthCareQuality/2015TableofContents/DiabetesCare.aspx  Well-Child Visits in First 15 Months: Well-Child Visits in the First 15 Months of Life. The percentage of children who turned 15 months old during the measurement year and had six or more well-child visits with a primary care physician during their first 15 months of life. - See more at: http://www.ncqa.org/ReportCards/HealthPlans/StateofHealthCareQuality/2015TableofContents/ChildWellCareVisits.aspx  A description of the Utah Small Areas can be found on Utah’s Public Health Insidicator Based Information System (IBIS) at: http://ibis.health.utah.gov/query/Help.html"
+          },
+          "Dataset Information" : {
+            "Agency" : "Health"
+          }
+        },
+        "filterCondition" : {
+          "metadata" : {
+            "advanced" : true,
+            "unifiedVersion" : 2
+          },
+          "children" : [ {
+            "metadata" : {
+              "tableColumnId" : {
+                "5969095" : 33194259
+              },
+              "operator" : "EQUALS"
+            },
+            "type" : "operator",
+            "value" : "OR"
+          } ],
+          "type" : "operator",
+          "value" : "AND"
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "6e2a-qi88",
+        "displayName" : "lsavoie",
+        "screenName" : "lsavoie",
+        "type" : "interactive"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "6e2a-qi88",
+        "displayName" : "lsavoie",
+        "screenName" : "lsavoie",
+        "type" : "interactive"
+      },
+      "tags" : [ "all payer claims database", "apcd", "utah", "quality measures", "hedis" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-zgg8.si7g_sm3n", "00000000-0000-0000-15FA-CE776711AC7D", 0, 1452114402, null, 1452114402, null, "{ }", "57", "Grand/San Juan Counties", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.44", "25", "14", "2014/01-2014/12" ]
+, [ "row-x36v_uuzd~kwzg", "00000000-0000-0000-B733-269CC07F21F3", 0, 1453322136, null, 1453322136, null, "{ }", "26", "Millcreek", "Breast Cancer Screening", "0.62", "2121", "1307", "2014/01-2014/12" ]
+, [ "row-q9it~8y52-6d74", "00000000-0000-0000-33D1-66FE737B0C48", 0, 1453322136, null, 1453322136, null, "{ }", "54", "Juab/Millard/Sanpete Counties", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.52", "131", "63", "2014/01-2014/12" ]
+, [ "row-7uw9_9h5x~9pdz", "00000000-0000-0000-964E-235D6F1ACAB6", 0, 1453322136, null, 1453322136, null, "{ }", "2", "Box Elder County (Other)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.35", "109", "71", "2014/01-2014/12" ]
+, [ "row-4gu4.pn8b-2bkv", "00000000-0000-0000-BF61-8B3E3895F3C6", 0, 1453322136, null, 1453322136, null, "{ }", "30", "Taylorsville (East)/Murray (West)", "Chlamydia Screening (CHL)", "0.42", "487", "206", "2014/01-2014/12" ]
+, [ "row-b98n.brmc_dndq", "00000000-0000-0000-6ABD-CCB1B5B4EDEC", 0, 1453322136, null, 1453322136, null, "{ }", "59", "Washington Co (Other)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.48", "118", "62", "2014/01-2014/12" ]
+, [ "row-sf83_5cu4-6ugq", "00000000-0000-0000-1C7C-AE3537566826", 0, 1453322136, null, 1453322136, null, "{ }", "43", "Pleasant Grove/Lindon", "Chlamydia Screening (CHL)", "0.29", "894", "261", "2014/01-2014/12" ]
+, [ "row-yfb5-dpm9.z6ge", "00000000-0000-0000-4475-93B8D4D13E84", 0, 1453322136, null, 1453322136, null, "{ }", "22", "West Valley (West)", "Breast Cancer Screening", "0.54", "2314", "1248", "2014/01-2014/12" ]
+, [ "row-y57z-afct~da3j", "00000000-0000-0000-D800-9C2A8E18AA4D", 0, 1453322136, null, 1453322136, null, "{ }", "32", "Midvale", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.48", "112", "58", "2014/01-2014/12" ]
+, [ "row-jyad~aq2r_8bps", "00000000-0000-0000-0B6E-24A8D5FE6555", 0, 1453322136, null, 1453322136, null, "{ }", "45", "Orem (West)", "Wellchild Visits in first 15 months of life (W15)", "0.31", "106", "33", "2014/01-2014/12" ]
+, [ "row-k7ih_qrhd~539b", "00000000-0000-0000-5FDB-2EC7C63BD6F3", 0, 1453322136, null, 1453322136, null, "{ }", "27", "Holladay", "Breast Cancer Screening", "0.61", "2086", "1265", "2014/01-2014/12" ]
+, [ "row-xbak-t5qp~qsy7", "00000000-0000-0000-11AF-26210721D834", 0, 1453322136, null, 1453322136, null, "{ }", "7", "Ogden (Downtown)", "Breast Cancer Screening", "0.58", "786", "455", "2014/01-2014/12" ]
+, [ "row-qhqe-nhk3~gjen", "00000000-0000-0000-E43B-D1A272624A5B", 0, 1453322136, null, 1453322136, null, "{ }", "36", "Sandy (Center)", "Breast Cancer Screening", "0.59", "2069", "1210", "2014/01-2014/12" ]
+, [ "row-n7u9.gwdm-yga8", "00000000-0000-0000-33F7-79A11E593D75", 0, 1453322136, null, 1453322136, null, "{ }", "56", "Carbon/Emery Counties", "Wellchild Visits in first 15 months of life (W15)", "0.12", "42", "5", "2014/01-2014/12" ]
+, [ "row-e9rn.xkut.z6mn", "00000000-0000-0000-B5D9-A9B0561C658A", 0, 1453322136, null, 1453322136, null, "{ }", "4", "Cache Co (Oth)/Rich Co (All)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.47", "186", "98", "2014/01-2014/12" ]
+, [ "row-6exc-k35x_kzqk", "00000000-0000-0000-A87C-096DEA290C47", 0, 1453322136, null, 1453322136, null, "{ }", "37", "Sandy (NE)", "Diabetes Care Hemoglobin Testing", "0.79", "399", "316", "2014/01-2014/12" ]
+, [ "row-6cyr-6m7m_jtae", "00000000-0000-0000-F1A5-6189D79BBC62", 0, 1453322136, null, 1453322136, null, "{ }", "19", "SLC (Foothill/U of U)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.38", "58", "36", "2014/01-2014/12" ]
+, [ "row-x253.5f5s.it3g", "00000000-0000-0000-2C6F-C8D05AE90881", 0, 1453322136, null, 1453322136, null, "{ }", "32", "Midvale", "Chlamydia Screening (CHL)", "0.4", "287", "116", "2014/01-2014/12" ]
+, [ "row-ce4n.82jw.dzw3", "00000000-0000-0000-53DC-233338F62FA2", 0, 1453322136, null, 1453322136, null, "{ }", "28", "Cottonwood", "Diabetes Care Hemoglobin Testing", "0.79", "561", "442", "2014/01-2014/12" ]
+, [ "row-7xii.sffe.m7vy", "00000000-0000-0000-DA38-E0B8A2F2F898", 0, 1453322136, null, 1453322136, null, "{ }", "9", "Roy/Hooper", "Wellchild Visits in first 15 months of life (W15)", "0.47", "112", "53", "2014/01-2014/12" ]
+, [ "row-xm3j-sv3k_xe7d", "00000000-0000-0000-8109-E6C079E8ADDC", 0, 1453322136, null, 1453322136, null, "{ }", "45", "Orem (West)", "Diabetes Care Hemoglobin Testing", "0.84", "357", "299", "2014/01-2014/12" ]
+, [ "row-kd5m~z9xk~4nq7", "00000000-0000-0000-48DE-4926BFF71AD8", 0, 1453322136, null, 1453322136, null, "{ }", "24", "SLC (Downtown)", "Breast Cancer Screening", "0.6", "1206", "723", "2014/01-2014/12" ]
+, [ "row-6sbg-fms9-rjcs", "00000000-0000-0000-74F0-E72762853036", 0, 1453322136, null, 1453322136, null, "{ }", "10", "Riverdale", "Diabetes Care Hemoglobin Testing", "0.82", "323", "265", "2014/01-2014/12" ]
+, [ "row-ia39_3mfy.um5v", "00000000-0000-0000-26DF-A448386197C5", 0, 1453322136, null, 1453322136, null, "{ }", "39", "Riverton/Draper", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.51", "677", "330", "2014/01-2014/12" ]
+, [ "row-m2uj.wjaw~wbuf", "00000000-0000-0000-3939-AD4D9F027D49", 0, 1453322136, null, 1453322136, null, "{ }", "34.200000000000003", "West Jordan (West)/Copperton", "Chlamydia Screening (CHL)", "0.38", "603", "226", "2014/01-2014/12" ]
+, [ "row-5be6~frw3.cayv", "00000000-0000-0000-927F-BBFEE8F6CBD2", 0, 1453322136, null, 1453322136, null, "{ }", "18", "SLC (Avenues)", "Wellchild Visits in first 15 months of life (W15)", "0.26", "27", "7", "2014/01-2014/12" ]
+, [ "row-8hdq.2293.m3k5", "00000000-0000-0000-CACD-E9AE4E496A2C", 0, 1453322136, null, 1453322136, null, "{ }", "38", "Sandy (SE)", "Chlamydia Screening (CHL)", "0.37", "458", "170", "2014/01-2014/12" ]
+, [ "row-u3ch-tbt2.mvhr", "00000000-0000-0000-4A91-953BBD62101A", 0, 1453322136, null, 1453322136, null, "{ }", "38", "Sandy (SE)", "Diabetes Care Hemoglobin Testing", "0.77", "460", "352", "2014/01-2014/12" ]
+, [ "row-bupu.d4ka-y3kx", "00000000-0000-0000-EFC2-3EEB04B4C7D8", 0, 1453322136, null, 1453322136, null, "{ }", "61", "Southwest LHD (Other)", "Wellchild Visits in first 15 months of life (W15)", "0.14", "14", "2", "2014/01-2014/12" ]
+, [ "row-9uzp_tri5_r4j8", "00000000-0000-0000-8FAD-D5D3F7FD5B76", 0, 1453322136, null, 1453322136, null, "{ }", "45", "Orem (West)", "Breast Cancer Screening", "0.61", "921", "560", "2014/01-2014/12" ]
+, [ "row-82jx_q7ih.hufv", "00000000-0000-0000-4BF3-428F9D825EDC", 0, 1453322136, null, 1453322136, null, "{ }", "49", "Springville/Spanish Fork", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.44", "573", "322", "2014/01-2014/12" ]
+, [ "row-6i2j_sy96~q5fk", "00000000-0000-0000-96F6-D2AA557A1AC5", 0, 1453322136, null, 1453322136, null, "{ }", "48", "Provo (South)", "Diabetes Care Hemoglobin Testing", "0.88", "512", "448", "2014/01-2014/12" ]
+, [ "row-ffu5_m7ag~mta3", "00000000-0000-0000-45C4-0C655A6ECB2D", 0, 1453322136, null, 1453322136, null, "{ }", "35", "South Jordan", "Diabetes Care Hemoglobin Testing", "0.84", "852", "714", "2014/01-2014/12" ]
+, [ "row-yvuy~tzxi-p7mt", "00000000-0000-0000-C453-F04CA7CE3B2B", 0, 1453322136, null, 1453322136, null, "{ }", "25", "South Salt Lake", "Breast Cancer Screening", "0.52", "415", "214", "2014/01-2014/12" ]
+, [ "row-9wf2~ser5~habr", "00000000-0000-0000-B828-5E8FE3F84B02", 0, 1453322136, null, 1453322136, null, "{ }", "30.1", "Taylorsville (West)", "Breast Cancer Screening", "0.59", "1579", "928", "2014/01-2014/12" ]
+, [ "row-hshw_ykij_w2jn", "00000000-0000-0000-05A3-7DF7E3D6C2B3", 0, 1453322136, null, 1453322136, null, "{ }", "58", "St George", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.4", "161", "96", "2014/01-2014/12" ]
+, [ "row-tbiz-ur3h.6iey", "00000000-0000-0000-32DF-07BC7BD354D3", 0, 1453322136, null, 1453322136, null, "{ }", "6", "Morgan Co (All)/Weber Co (East)", "Diabetes Care Hemoglobin Testing", "0.84", "539", "450", "2014/01-2014/12" ]
+, [ "row-e366~dy87.up6k", "00000000-0000-0000-DF04-A7BCEA568C59", 0, 1453322136, null, 1453322136, null, "{ }", "60", "Cedar City", "Chlamydia Screening (CHL)", "0.33", "412", "134", "2014/01-2014/12" ]
+, [ "row-pmz2_nzzi~22h5", "00000000-0000-0000-750B-61031A605431", 0, 1453322136, null, 1453322136, null, "{ }", "52", "Wasatch County", "Wellchild Visits in first 15 months of life (W15)", "0.32", "38", "12", "2014/01-2014/12" ]
+, [ "row-ktpj.5iuu_wf7m", "00000000-0000-0000-5403-2EC359AB2C8E", 0, 1453322136, null, 1453322136, null, "{ }", "46", "Orem (East)", "Wellchild Visits in first 15 months of life (W15)", "0.25", "71", "18", "2014/01-2014/12" ]
+, [ "row-pnpu~gap7.zddb", "00000000-0000-0000-57C0-1279F820C966", 0, 1453322136, null, 1453322136, null, "{ }", "57", "Grand/San Juan Counties", "Chlamydia Screening (CHL)", "0.33", "81", "27", "2014/01-2014/12" ]
+, [ "row-j2w4.iwpp~vvtu", "00000000-0000-0000-96F2-BC9AB5E76610", 0, 1453322136, null, 1453322136, null, "{ }", "28", "Cottonwood", "Breast Cancer Screening", "0.62", "2151", "1340", "2014/01-2014/12" ]
+, [ "row-vn4b~j9fn-6jxe", "00000000-0000-0000-97B2-3F92D3F4CA08", 0, 1453322136, null, 1453322136, null, "{ }", "53", "TriCounty LHD", "Diabetes Care Hemoglobin Testing", "0.71", "343", "243", "2014/01-2014/12" ]
+, [ "row-j9dz.q8gi.evmn", "00000000-0000-0000-0D25-D9E605A84E8F", 0, 1453322136, null, 1453322136, null, "{ }", "27", "Holladay", "Diabetes Care Hemoglobin Testing", "0.77", "541", "414", "2014/01-2014/12" ]
+, [ "row-79ap_u2es~uu5n", "00000000-0000-0000-C01C-816A2F618653", 0, 1453322136, null, 1453322136, null, "{ }", "4", "Cache Co (Oth)/Rich Co (All)", "Breast Cancer Screening", "0.63", "1551", "982", "2014/01-2014/12" ]
+, [ "row-t9rm.knvj-fyr3", "00000000-0000-0000-B3DA-6C2C668DFB57", 0, 1453322136, null, 1453322136, null, "{ }", "59", "Washington Co (Other)", "Breast Cancer Screening", "0.58", "2050", "1178", "2014/01-2014/12" ]
+, [ "row-9qtv~yr92-8eda", "00000000-0000-0000-A54D-D761AE792861", 0, 1453322136, null, 1453322136, null, "{ }", "8", "South Ogden", "Breast Cancer Screening", "0.64", "1145", "728", "2014/01-2014/12" ]
+, [ "row-fasw.mq5t~qk2j", "00000000-0000-0000-6A97-4DDB4D1F0E17", 0, 1453322136, null, 1453322136, null, "{ }", "9", "Roy/Hooper", "Breast Cancer Screening", "0.62", "1301", "811", "2014/01-2014/12" ]
+, [ "row-89p7_m8n3~ti5f", "00000000-0000-0000-1219-17037C1BB669", 0, 1453322136, null, 1453322136, null, "{ }", "16", "Bountiful", "Chlamydia Screening (CHL)", "0.31", "608", "187", "2014/01-2014/12" ]
+, [ "row-4evm-ht7p.fj5t", "00000000-0000-0000-A333-F6DB1CCBD25F", 0, 1453322136, null, 1453322136, null, "{ }", "21", "SLC (Glendale)", "Breast Cancer Screening", "0.51", "470", "238", "2014/01-2014/12" ]
+, [ "row-5unh_sksv.aa5h", "00000000-0000-0000-3636-CC8056F9B1E7", 0, 1453322136, null, 1453322136, null, "{ }", "4", "Cache Co (Oth)/Rich Co (All)", "Wellchild Visits in first 15 months of life (W15)", "0.15", "55", "8", "2014/01-2014/12" ]
+, [ "row-muxc~tmc9_sefq", "00000000-0000-0000-D26E-55AE57A1DDA9", 0, 1453322136, null, 1453322136, null, "{ }", "14", "Farmington/Centerville", "Breast Cancer Screening", "0.59", "1605", "944", "2014/01-2014/12" ]
+, [ "row-rj9f.ipvx~98h3", "00000000-0000-0000-7D37-C8C34E94AEAE", 0, 1453322136, null, 1453322136, null, "{ }", "25", "South Salt Lake", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.47", "55", "29", "2014/01-2014/12" ]
+, [ "row-dntw_t2rx_jzfh", "00000000-0000-0000-54C6-1407566B9359", 0, 1453322136, null, 1453322136, null, "{ }", "4", "Cache Co (Oth)/Rich Co (All)", "Chlamydia Screening (CHL)", "0.27", "598", "164", "2014/01-2014/12" ]
+, [ "row-u3wt-jhga~ddgt", "00000000-0000-0000-D87B-622E13562B4E", 0, 1453322136, null, 1453322136, null, "{ }", "53", "TriCounty LHD", "Chlamydia Screening (CHL)", "0.17", "468", "77", "2014/01-2014/12" ]
+, [ "row-qwfd~rz8z_3mm6", "00000000-0000-0000-77FD-319171A4619B", 0, 1453322136, null, 1453322136, null, "{ }", "47", "Provo (North)/BYU", "Diabetes Care Hemoglobin Testing", "0.87", "342", "298", "2014/01-2014/12" ]
+, [ "row-vujc-nmsg-3unv", "00000000-0000-0000-EE3A-D43843DD6D08", 0, 1453322136, null, 1453322136, null, "{ }", "34.200000000000003", "West Jordan (West)/Copperton", "Diabetes Care Hemoglobin Testing", "0.86", "534", "457", "2014/01-2014/12" ]
+, [ "row-jbyw.i2uc.p2y4", "00000000-0000-0000-2B61-400BBD9834D3", 0, 1453322136, null, 1453322136, null, "{ }", "4", "Cache Co (Oth)/Rich Co (All)", "Diabetes Care Hemoglobin Testing", "0.86", "580", "496", "2014/01-2014/12" ]
+, [ "row-bz3s_5z85~qy5f", "00000000-0000-0000-1B79-537E99DA919C", 0, 1453322136, null, 1453322136, null, "{ }", "30", "Taylorsville (East)/Murray (West)", "Breast Cancer Screening", "0.6", "1446", "865", "2014/01-2014/12" ]
+, [ "row-fq8m.3z6q.cxzv", "00000000-0000-0000-9928-2DBEAA219765", 0, 1453322136, null, 1453322136, null, "{ }", "17", "SLC (Rose Park)", "Wellchild Visits in first 15 months of life (W15)", "0.28", "98", "27", "2014/01-2014/12" ]
+, [ "row-dt3f.z3vc_42mg", "00000000-0000-0000-AE71-C831E9EB1024", 0, 1453322136, null, 1453322136, null, "{ }", "35", "South Jordan", "Breast Cancer Screening", "0.6", "2284", "1372", "2014/01-2014/12" ]
+, [ "row-xz2t-qe8m~s2zp", "00000000-0000-0000-93C2-FBE8361CB99B", 0, 1453322136, null, 1453322136, null, "{ }", "20", "Magna", "Breast Cancer Screening", "0.52", "662", "341", "2014/01-2014/12" ]
+, [ "row-yymx-8nkp-6y37", "00000000-0000-0000-3A24-67426C8EDB10", 0, 1453322136, null, 1453322136, null, "{ }", "41", "Lehi/Cedar Valley", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.46", "752", "409", "2014/01-2014/12" ]
+, [ "row-cczs-ib8i~cqg6", "00000000-0000-0000-6C44-4A5E1833DC67", 0, 1453322136, null, 1453322136, null, "{ }", "6", "Morgan Co (All)/Weber Co (East)", "Wellchild Visits in first 15 months of life (W15)", "0.52", "89", "46", "2014/01-2014/12" ]
+, [ "row-6tqe_hziz~fpp7", "00000000-0000-0000-37FD-41EEB0887FC5", 0, 1453322136, null, 1453322136, null, "{ }", "5", "Ben Lomond", "Chlamydia Screening (CHL)", "0.44", "746", "329", "2014/01-2014/12" ]
+, [ "row-zuga~ehzs.7v8y", "00000000-0000-0000-45F8-D74C15FB2DB8", 0, 1453322136, null, 1453322136, null, "{ }", "3", "Logan", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.45", "226", "124", "2014/01-2014/12" ]
+, [ "row-299i_cjmj-tsn2", "00000000-0000-0000-1542-EA8417395A3F", 0, 1453322136, null, 1453322136, null, "{ }", "30", "Taylorsville (East)/Murray (West)", "Diabetes Care Hemoglobin Testing", "0.82", "618", "508", "2014/01-2014/12" ]
+, [ "row-8b9b~vsuv~4fdp", "00000000-0000-0000-6644-965C6E41CC14", 0, 1453322136, null, 1453322136, null, "{ }", "11", "Clearfield/Hill AFB", "Chlamydia Screening (CHL)", "0.38", "807", "309", "2014/01-2014/12" ]
+, [ "row-fbq3_vynt.cr2u", "00000000-0000-0000-03C4-9C41A8C39385", 0, 1453322136, null, 1453322136, null, "{ }", "37", "Sandy (NE)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.53", "91", "43", "2014/01-2014/12" ]
+, [ "row-pksv-26ff_etwj", "00000000-0000-0000-273E-44BA4F6E0D22", 0, 1453322136, null, 1453322136, null, "{ }", "22", "West Valley (West)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.47", "342", "182", "2014/01-2014/12" ]
+, [ "row-wth4-pgeh_kuxs", "00000000-0000-0000-7F07-AFF6164FEF61", 0, 1453322136, null, 1453322136, null, "{ }", "6", "Morgan Co (All)/Weber Co (East)", "Breast Cancer Screening", "0.65", "1776", "1151", "2014/01-2014/12" ]
+, [ "row-68vi~gj7a.ai8z", "00000000-0000-0000-BB39-4CAABFCCB850", 0, 1453322136, null, 1453322136, null, "{ }", null, "Unknown", "Chlamydia Screening (CHL)", "0.36", "543", "194", "2014/01-2014/12" ]
+, [ "row-jgwj~2jci.kyq4", "00000000-0000-0000-8BE5-0754CF8907C3", 0, 1453322136, null, 1453322136, null, "{ }", "18", "SLC (Avenues)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.56", "61", "27", "2014/01-2014/12" ]
+, [ "row-f7bw_uq8g~kes3", "00000000-0000-0000-FE11-7155F738B112", 0, 1453322136, null, 1453322136, null, "{ }", "56", "Carbon/Emery Counties", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.7", "99", "30", "2014/01-2014/12" ]
+, [ "row-qumu~qypb~bym8", "00000000-0000-0000-35C8-AFD4E846BF88", 0, 1453322136, null, 1453322136, null, "{ }", "55", "Sevier/Piute/Wayne Counties", "Wellchild Visits in first 15 months of life (W15)", "0.12", "17", "2", "2014/01-2014/12" ]
+, [ "row-wiqb-8f48-xuvf", "00000000-0000-0000-5BD2-04AB6C35C9B8", 0, 1453322136, null, 1453322136, null, "{ }", "5", "Ben Lomond", "Breast Cancer Screening", "0.64", "1595", "1019", "2014/01-2014/12" ]
+, [ "row-jews~7jbq~3sru", "00000000-0000-0000-616B-E7DE2E4441ED", 0, 1453322136, null, 1453322136, null, "{ }", "46", "Orem (East)", "Chlamydia Screening (CHL)", "0.25", "342", "85", "2014/01-2014/12" ]
+, [ "row-5mtp_bb8i_ds86", "00000000-0000-0000-8ADE-48680CAE61C4", 0, 1453322136, null, 1453322136, null, "{ }", "52", "Wasatch County", "Diabetes Care Hemoglobin Testing", "0.76", "233", "178", "2014/01-2014/12" ]
+, [ "row-hn7j_h6zz-9nx9", "00000000-0000-0000-D1F5-93F63E87262E", 0, 1453322136, null, 1453322136, null, "{ }", "50", "Utah Co (South)", "Breast Cancer Screening", "0.56", "919", "516", "2014/01-2014/12" ]
+, [ "row-8phn.9qed~aj4m", "00000000-0000-0000-3E40-03E85E0A081E", 0, 1453322136, null, 1453322136, null, "{ }", "11", "Clearfield/Hill AFB", "Wellchild Visits in first 15 months of life (W15)", "0.5", "168", "84", "2014/01-2014/12" ]
+, [ "row-kf7h_j66d~uusx", "00000000-0000-0000-5DCF-378DAF35EEAB", 0, 1453322136, null, 1453322136, null, "{ }", "49", "Springville/Spanish Fork", "Chlamydia Screening (CHL)", "0.32", "1190", "382", "2014/01-2014/12" ]
+, [ "row-9ed3~b8dr_mhqi", "00000000-0000-0000-CCBE-E7BC06ACE517", 0, 1453322136, null, 1453322136, null, "{ }", null, "Unknown", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.48", "219", "115", "2014/01-2014/12" ]
+, [ "row-2zzv_qyce.imqm", "00000000-0000-0000-9ABA-EFBFA2583BFF", 0, 1453322136, null, 1453322136, null, "{ }", "12", "Layton", "Breast Cancer Screening", "0.59", "2288", "1348", "2014/01-2014/12" ]
+, [ "row-y8ts-qucv-mcxc", "00000000-0000-0000-DA4C-7757CE3D5E88", 0, 1453322136, null, 1453322136, null, "{ }", "30.1", "Taylorsville (West)", "Wellchild Visits in first 15 months of life (W15)", "0.44", "78", "34", "2014/01-2014/12" ]
+, [ "row-k2th_aszx~sq3p", "00000000-0000-0000-3A87-A5215F87BAE2", 0, 1453322136, null, 1453322136, null, "{ }", "53", "TriCounty LHD", "Breast Cancer Screening", "0.4", "900", "364", "2014/01-2014/12" ]
+, [ "row-5m4c_9w5c_gzzm", "00000000-0000-0000-0CD6-D185323CAF70", 0, 1453322136, null, 1453322136, null, "{ }", "19", "SLC (Foothill/U of U)", "Wellchild Visits in first 15 months of life (W15)", "0.35", "69", "24", "2014/01-2014/12" ]
+, [ "row-n6cq_i24f-fk88", "00000000-0000-0000-20E4-87A05CED3055", 0, 1453322136, null, 1453322136, null, "{ }", "25", "South Salt Lake", "Diabetes Care Hemoglobin Testing", "0.83", "222", "184", "2014/01-2014/12" ]
+, [ "row-r3xi_vkbd-u63r", "00000000-0000-0000-A90D-CA1AB9F0ADF6", 0, 1453322136, null, 1453322136, null, "{ }", "59", "Washington Co (Other)", "Chlamydia Screening (CHL)", "0.27", "525", "140", "2014/01-2014/12" ]
+, [ "row-pamy.tj4m-mk4y", "00000000-0000-0000-75AB-67B0D9549475", 0, 1453322136, null, 1453322136, null, "{ }", "23.1", "West Valley (East) V2", "Diabetes Care Hemoglobin Testing", "0.82", "709", "580", "2014/01-2014/12" ]
+, [ "row-meqm.tdmv.zt8j", "00000000-0000-0000-5262-7386E871A3B3", 0, 1453322136, null, 1453322136, null, "{ }", "25", "South Salt Lake", "Wellchild Visits in first 15 months of life (W15)", "0.37", "63", "23", "2014/01-2014/12" ]
+, [ "row-zbkj-4cq9.wxtn", "00000000-0000-0000-F8B8-FF6C11E037D0", 0, 1453322136, null, 1453322136, null, "{ }", "21", "SLC (Glendale)", "Wellchild Visits in first 15 months of life (W15)", "0.29", "70", "20", "2014/01-2014/12" ]
+, [ "row-sepf.nn6f_378k", "00000000-0000-0000-F997-050315363507", 0, 1453322136, null, 1453322136, null, "{ }", "14", "Farmington/Centerville", "Wellchild Visits in first 15 months of life (W15)", "0.31", "123", "38", "2014/01-2014/12" ]
+, [ "row-6j5r~sfhp-5xui", "00000000-0000-0000-E363-99388DCE47D2", 0, 1453322136, null, 1453322136, null, "{ }", "27", "Holladay", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.5", "171", "86", "2014/01-2014/12" ]
+, [ "row-y5rt_z3ae_8t2q", "00000000-0000-0000-A6F9-381D10B883AA", 0, 1453322136, null, 1453322136, null, "{ }", "51", "Summit County", "Diabetes Care Hemoglobin Testing", "0.74", "247", "183", "2014/01-2014/12" ]
+, [ "row-2v3a.yamx-gqsh", "00000000-0000-0000-FE27-5193810EB960", 0, 1453322136, null, 1453322136, null, "{ }", "28", "Cottonwood", "Chlamydia Screening (CHL)", "0.31", "507", "158", "2014/01-2014/12" ]
+, [ "row-rk2y~srrn~jarm", "00000000-0000-0000-CCD8-3EA6F525D30E", 0, 1453322136, null, 1453322136, null, "{ }", "38", "Sandy (SE)", "Breast Cancer Screening", "0.62", "1756", "1094", "2014/01-2014/12" ]
+, [ "row-gn8m~p76e.dwyj", "00000000-0000-0000-180C-A4D9EA661337", 0, 1453322136, null, 1453322136, null, "{ }", "31", "Murray", "Wellchild Visits in first 15 months of life (W15)", "0.46", "70", "32", "2014/01-2014/12" ]
+, [ "row-iztb_7dce_v5u4", "00000000-0000-0000-7E54-DC88B71F8045", 0, 1453322136, null, 1453322136, null, "{ }", "15", "Woods Cross/North Salt Lake", "Diabetes Care Hemoglobin Testing", "0.79", "423", "332", "2014/01-2014/12" ]
+, [ "row-s9pz-gdzx_hgqu", "00000000-0000-0000-8E48-60806E73DA39", 0, 1453322136, null, 1453322136, null, "{ }", "9", "Roy/Hooper", "Diabetes Care Hemoglobin Testing", "0.87", "645", "560", "2014/01-2014/12" ]
+, [ "row-nqws~wfwe.x9k2", "00000000-0000-0000-5969-E1B203AFF10F", 0, 1453322136, null, 1453322136, null, "{ }", "40", "Tooele Co", "Wellchild Visits in first 15 months of life (W15)", "0.44", "133", "58", "2014/01-2014/12" ]
+, [ "row-fcbg.a77w~nugw", "00000000-0000-0000-1DFE-171A6E5CB016", 0, 1453322136, null, 1453322136, null, "{ }", "49", "Springville/Spanish Fork", "Wellchild Visits in first 15 months of life (W15)", "0.52", "286", "148", "2014/01-2014/12" ]
+, [ "row-8rn3.f6uz.jama", "00000000-0000-0000-F8E6-65B183A7FEC3", 0, 1453322136, null, 1453322136, null, "{ }", "47", "Provo (North)/BYU", "Chlamydia Screening (CHL)", "0.25", "479", "120", "2014/01-2014/12" ]
+, [ "row-gdqz-a7xe.s8fs", "00000000-0000-0000-3016-6F361E582A56", 0, 1453322136, null, 1453322136, null, "{ }", "58", "St George", "Wellchild Visits in first 15 months of life (W15)", "0.33", "89", "29", "2014/01-2014/12" ]
+, [ "row-idek-rh63-nz8p", "00000000-0000-0000-D8CE-D8E84DAF2440", 0, 1453322136, null, 1453322136, null, "{ }", "35", "South Jordan", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.55", "362", "161", "2014/01-2014/12" ]
+, [ "row-qkp5~9aqr_zmre", "00000000-0000-0000-8778-33534A402637", 0, 1453322136, null, 1453322136, null, "{ }", "9", "Roy/Hooper", "Chlamydia Screening (CHL)", "0.45", "625", "280", "2014/01-2014/12" ]
+, [ "row-xgrb.bc9b~8i3f", "00000000-0000-0000-9195-AA26BE7B3512", 0, 1453322136, null, 1453322136, null, "{ }", "28", "Cottonwood", "Wellchild Visits in first 15 months of life (W15)", "0.46", "74", "34", "2014/01-2014/12" ]
+, [ "row-u8t2-rfig-qeje", "00000000-0000-0000-B850-4A7E55FF0135", 0, 1453322136, null, 1453322136, null, "{ }", "40", "Tooele Co", "Diabetes Care Hemoglobin Testing", "0.79", "864", "679", "2014/01-2014/12" ]
+, [ "row-p2uk.53yu-ap5w", "00000000-0000-0000-90E2-1E48700BB4C2", 0, 1453322136, null, 1453322136, null, "{ }", "55", "Sevier/Piute/Wayne Counties", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.39", "36", "22", "2014/01-2014/12" ]
+, [ "row-nzhm_ha2x~5e6h", "00000000-0000-0000-93D6-7C786DCF1067", 0, 1453322136, null, 1453322136, null, "{ }", "10", "Riverdale", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.42", "105", "61", "2014/01-2014/12" ]
+, [ "row-btfp-pk7m-6pu7", "00000000-0000-0000-052D-4B56BC1DA357", 0, 1453322136, null, 1453322136, null, "{ }", "7", "Ogden (Downtown)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.41", "103", "61", "2014/01-2014/12" ]
+, [ "row-7g3v-xhaz_kqqt", "00000000-0000-0000-0C02-2F9F5B5D0812", 0, 1453322136, null, 1453322136, null, "{ }", "51", "Summit County", "Breast Cancer Screening", "0.57", "1812", "1036", "2014/01-2014/12" ]
+, [ "row-icqh-fiiy~26rw", "00000000-0000-0000-B873-823B857BA647", 0, 1453322136, null, 1453322136, null, "{ }", "58", "St George", "Breast Cancer Screening", "0.56", "2451", "1371", "2014/01-2014/12" ]
+, [ "row-ec89~jvi9~8e2g", "00000000-0000-0000-12A9-F19D13224E79", 0, 1453322136, null, 1453322136, null, "{ }", "36", "Sandy (Center)", "Diabetes Care Hemoglobin Testing", "0.79", "850", "673", "2014/01-2014/12" ]
+, [ "row-sjwr_p6zg_j98s", "00000000-0000-0000-3A09-2FA416117275", 0, 1453322136, null, 1453322136, null, "{ }", "40", "Tooele Co", "Breast Cancer Screening", "0.54", "1390", "754", "2014/01-2014/12" ]
+, [ "row-b83x_c664_p4qc", "00000000-0000-0000-554F-DB1C002B8651", 0, 1453322136, null, 1453322136, null, "{ }", "34.1", "West Jordan (SE)", "Diabetes Care Hemoglobin Testing", "0.86", "573", "491", "2014/01-2014/12" ]
+, [ "row-g8xq_jvtr~2zxp", "00000000-0000-0000-BFFB-ECD539594A2D", 0, 1453322136, null, 1453322136, null, "{ }", "19", "SLC (Foothill/U of U)", "Diabetes Care Hemoglobin Testing", "0.85", "175", "148", "2014/01-2014/12" ]
+, [ "row-jemk~9f47_3v5p", "00000000-0000-0000-A2AF-50D2ED1E9DA1", 0, 1453322136, null, 1453322136, null, "{ }", "48", "Provo (South)", "Wellchild Visits in first 15 months of life (W15)", "0.46", "176", "81", "2014/01-2014/12" ]
+, [ "row-5ugg-3mfi-ejii", "00000000-0000-0000-7D0E-17117B0D672F", 0, 1453322136, null, 1453322136, null, "{ }", "47", "Provo (North)/BYU", "Wellchild Visits in first 15 months of life (W15)", "0.39", "112", "44", "2014/01-2014/12" ]
+, [ "row-jusw-s7iy.6eq2", "00000000-0000-0000-DC7E-E9714903CE6F", 0, 1453322136, null, 1453322136, null, "{ }", "54", "Juab/Millard/Sanpete Counties", "Breast Cancer Screening", "0.47", "1088", "512", "2014/01-2014/12" ]
+, [ "row-nqjh.myse~b8zh", "00000000-0000-0000-60FC-4FD16C1DD5D0", 0, 1453322136, null, 1453322136, null, "{ }", "43", "Pleasant Grove/Lindon", "Diabetes Care Hemoglobin Testing", "0.87", "679", "589", "2014/01-2014/12" ]
+, [ "row-vdva.i9jf_2vmp", "00000000-0000-0000-B864-5DE658B56524", 0, 1453322136, null, 1453322136, null, "{ }", "19", "SLC (Foothill/U of U)", "Chlamydia Screening (CHL)", "0.37", "251", "93", "2014/01-2014/12" ]
+, [ "row-irq8-xvea-xfxs", "00000000-0000-0000-0620-3178D4BD5560", 0, 1453322136, null, 1453322136, null, "{ }", "14", "Farmington/Centerville", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.57", "161", "69", "2014/01-2014/12" ]
+, [ "row-cfsc.25bx-wa6q", "00000000-0000-0000-CD6A-E247B422C154", 0, 1453322136, null, 1453322136, null, "{ }", "13", "Syracuse/Kaysville", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.5", "310", "156", "2014/01-2014/12" ]
+, [ "row-tqqz-52ze.whef", "00000000-0000-0000-D63F-1509D287042C", 0, 1453322136, null, 1453322136, null, "{ }", "31", "Murray", "Chlamydia Screening (CHL)", "0.43", "369", "160", "2014/01-2014/12" ]
+, [ "row-n8c2~5xc5~73wf", "00000000-0000-0000-9B25-6035D026D0BB", 0, 1453322136, null, 1453322136, null, "{ }", "17", "SLC (Rose Park)", "Chlamydia Screening (CHL)", "0.51", "333", "169", "2014/01-2014/12" ]
+, [ "row-k997-5kmk~qh9q", "00000000-0000-0000-9B90-CFDF7F7F089A", 0, 1453322136, null, 1453322136, null, "{ }", "42", "American Fork/Alpine", "Breast Cancer Screening", "0.53", "1987", "1049", "2014/01-2014/12" ]
+, [ "row-e4gx-4hsv.dys9", "00000000-0000-0000-94F9-DE6AFA672400", 0, 1453322136, null, 1453322136, null, "{ }", "60", "Cedar City", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.55", "91", "41", "2014/01-2014/12" ]
+, [ "row-qifv_xw6y-mk4y", "00000000-0000-0000-BADF-F16217E33601", 0, 1453322136, null, 1453322136, null, "{ }", "29.1", "Kearns V2", "Chlamydia Screening (CHL)", "0.52", "459", "240", "2014/01-2014/12" ]
+, [ "row-hqke.8sk2-rxyj", "00000000-0000-0000-E43E-C07D7E1D8FA0", 0, 1453322136, null, 1453322136, null, "{ }", "52", "Wasatch County", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.45", "85", "47", "2014/01-2014/12" ]
+, [ "row-nruh~7imi.ezav", "00000000-0000-0000-E540-0F1C040ACE75", 0, 1453322136, null, 1453322136, null, "{ }", "56", "Carbon/Emery Counties", "Breast Cancer Screening", "0.5", "750", "378", "2014/01-2014/12" ]
+, [ "row-4b25.kp78.ygq8", "00000000-0000-0000-541C-75E5D5E52883", 0, 1453322136, null, 1453322136, null, "{ }", "61", "Southwest LHD (Other)", "Breast Cancer Screening", "0.47", "397", "188", "2014/01-2014/12" ]
+, [ "row-hz59~3nm6~qg8a", "00000000-0000-0000-D2A3-56B2C72A1B14", 0, 1453322136, null, 1453322136, null, "{ }", "26", "Millcreek", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.51", "193", "95", "2014/01-2014/12" ]
+, [ "row-v4xe.xia5~q5xr", "00000000-0000-0000-6784-38729A7C948E", 0, 1453322136, null, 1453322136, null, "{ }", "32", "Midvale", "Wellchild Visits in first 15 months of life (W15)", "0.49", "67", "33", "2014/01-2014/12" ]
+, [ "row-wppn.c2vw.z4v2", "00000000-0000-0000-2D63-23C4D3BF380D", 0, 1453322136, null, 1453322136, null, "{ }", "22", "West Valley (West)", "Wellchild Visits in first 15 months of life (W15)", "0.43", "146", "62", "2014/01-2014/12" ]
+, [ "row-7jw8-xcc9~hvcz", "00000000-0000-0000-9737-51F57499C36B", 0, 1453322136, null, 1453322136, null, "{ }", "28", "Cottonwood", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.47", "157", "83", "2014/01-2014/12" ]
+, [ "row-m7qn_trgm.wxea", "00000000-0000-0000-D69A-289AC12AF521", 0, 1453322136, null, 1453322136, null, "{ }", "6", "Morgan Co (All)/Weber Co (East)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.38", "212", "132", "2014/01-2014/12" ]
+, [ "row-g5kj~b65m_jrp7", "00000000-0000-0000-4568-E09CF0E6614F", 0, 1453322136, null, 1453322136, null, "{ }", "34.1", "West Jordan (SE)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.64", "234", "85", "2014/01-2014/12" ]
+, [ "row-dkqk~469t_va8c", "00000000-0000-0000-8A29-990A49824DCC", 0, 1453322136, null, 1453322136, null, "{ }", "55", "Sevier/Piute/Wayne Counties", "Diabetes Care Hemoglobin Testing", "0.74", "145", "107", "2014/01-2014/12" ]
+, [ "row-pkmp_ae55-54z2", "00000000-0000-0000-B4FA-E1263D1EBCCE", 0, 1453322136, null, 1453322136, null, "{ }", "47", "Provo (North)/BYU", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.59", "161", "66", "2014/01-2014/12" ]
+, [ "row-rysg~m559~xrgd", "00000000-0000-0000-4EBF-1EDD30E6CBBF", 0, 1453322136, null, 1453322136, null, "{ }", "34.200000000000003", "West Jordan (West)/Copperton", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.52", "251", "121", "2014/01-2014/12" ]
+, [ "row-ha6b_b7f6~ynde", "00000000-0000-0000-230F-3EE9DCDFABED", 0, 1453322136, null, 1453322136, null, "{ }", "54", "Juab/Millard/Sanpete Counties", "Chlamydia Screening (CHL)", "0.22", "420", "91", "2014/01-2014/12" ]
+, [ "row-tbaa.mehr-h7ud", "00000000-0000-0000-508B-4827F6C8B127", 0, 1453322136, null, 1453322136, null, "{ }", "15", "Woods Cross/North Salt Lake", "Wellchild Visits in first 15 months of life (W15)", "0.35", "100", "35", "2014/01-2014/12" ]
+, [ "row-8ky5.6zbt-jzyx", "00000000-0000-0000-D4ED-E0935FEE3243", 0, 1453322136, null, 1453322136, null, "{ }", "24", "SLC (Downtown)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.54", "134", "62", "2014/01-2014/12" ]
+, [ "row-nm52.xsmx-ed2p", "00000000-0000-0000-4FE9-34E6BD4D486C", 0, 1453322136, null, 1453322136, null, "{ }", "42", "American Fork/Alpine", "Wellchild Visits in first 15 months of life (W15)", "0.53", "142", "75", "2014/01-2014/12" ]
+, [ "row-sffn.ur8d.vt2s", "00000000-0000-0000-9B26-9D9F7CFDF736", 0, 1453322136, null, 1453322136, null, "{ }", "57", "Grand/San Juan Counties", "Breast Cancer Screening", "0.46", "395", "181", "2014/01-2014/12" ]
+, [ "row-eu27_m66k~bxrr", "00000000-0000-0000-D277-6F0D5E1C5BFC", 0, 1453322136, null, 1453322136, null, "{ }", "29.1", "Kearns V2", "Breast Cancer Screening", "0.5", "993", "494", "2014/01-2014/12" ]
+, [ "row-3vdx~qu5f_b8gn", "00000000-0000-0000-8C15-CDED2B6DF381", 0, 1453322136, null, 1453322136, null, "{ }", "33.200000000000003", "West Jordan (NE) V2", "Chlamydia Screening (CHL)", "0.42", "418", "176", "2014/01-2014/12" ]
+, [ "row-57a2~y74x.pk63", "00000000-0000-0000-0BB2-6318CE640E16", 0, 1453322136, null, 1453322136, null, "{ }", "26", "Millcreek", "Diabetes Care Hemoglobin Testing", "0.85", "594", "503", "2014/01-2014/12" ]
+, [ "row-42aa.5ten_qqwj", "00000000-0000-0000-A53E-167A5F2480EF", 0, 1453322136, null, 1453322136, null, "{ }", "6", "Morgan Co (All)/Weber Co (East)", "Chlamydia Screening (CHL)", "0.32", "743", "236", "2014/01-2014/12" ]
+, [ "row-j7t7_k8e3~dun3", "00000000-0000-0000-37B4-7AF418AEBBBA", 0, 1453322136, null, 1453322136, null, "{ }", "52", "Wasatch County", "Chlamydia Screening (CHL)", "0.25", "228", "58", "2014/01-2014/12" ]
+, [ "row-jf8b.ebzd.kva9", "00000000-0000-0000-66D5-07933F69D3FA", 0, 1453322136, null, 1453322136, null, "{ }", "17", "SLC (Rose Park)", "Breast Cancer Screening", "0.54", "745", "402", "2014/01-2014/12" ]
+, [ "row-b8ny.6n3h~uc4t", "00000000-0000-0000-0A66-C2D1CBC978E9", 0, 1453322136, null, 1453322136, null, "{ }", "29.1", "Kearns V2", "Diabetes Care Hemoglobin Testing", "0.85", "631", "534", "2014/01-2014/12" ]
+, [ "row-ejyy_id8i_cnky", "00000000-0000-0000-3839-CCA4B677656B", 0, 1453322136, null, 1453322136, null, "{ }", "48", "Provo (South)", "Chlamydia Screening (CHL)", "0.32", "597", "192", "2014/01-2014/12" ]
+, [ "row-vveg-d45f-ufg2", "00000000-0000-0000-EDE6-2D1A2EA9EE14", 0, 1453322136, null, 1453322136, null, "{ }", "3", "Logan", "Diabetes Care Hemoglobin Testing", "0.86", "658", "567", "2014/01-2014/12" ]
+, [ "row-39d4~qneg_t6dy", "00000000-0000-0000-A7B2-633D2F086604", 0, 1453322136, null, 1453322136, null, "{ }", "49", "Springville/Spanish Fork", "Breast Cancer Screening", "0.59", "2408", "1431", "2014/01-2014/12" ]
+, [ "row-uqts_dw4i~zwx7", "00000000-0000-0000-91C9-CEE543724311", 0, 1453322136, null, 1453322136, null, "{ }", null, "Unknown", "Diabetes Care Hemoglobin Testing", "0.83", "480", "398", "2014/01-2014/12" ]
+, [ "row-ritp.ysyr-dvgh", "00000000-0000-0000-D45F-0D280E98F3E2", 0, 1453322136, null, 1453322136, null, "{ }", "32", "Midvale", "Diabetes Care Hemoglobin Testing", "0.82", "413", "339", "2014/01-2014/12" ]
+, [ "row-9far~n4fd.nffe", "00000000-0000-0000-2328-FF4BFFAC016A", 0, 1453322136, null, 1453322136, null, "{ }", "7", "Ogden (Downtown)", "Diabetes Care Hemoglobin Testing", "0.8", "383", "305", "2014/01-2014/12" ]
+, [ "row-dj79~9k8j~8nyv", "00000000-0000-0000-7505-51331009BED2", 0, 1453322136, null, 1453322136, null, "{ }", "54", "Juab/Millard/Sanpete Counties", "Wellchild Visits in first 15 months of life (W15)", "0.19", "70", "13", "2014/01-2014/12" ]
+, [ "row-pasv-gu2u_kgxs", "00000000-0000-0000-071E-82CE3BEF41DC", 0, 1453322136, null, 1453322136, null, "{ }", "41", "Lehi/Cedar Valley", "Wellchild Visits in first 15 months of life (W15)", "0.52", "522", "270", "2014/01-2014/12" ]
+, [ "row-cqxu_mypr_9sg6", "00000000-0000-0000-0938-22E022168378", 0, 1453322136, null, 1453322136, null, "{ }", "21", "SLC (Glendale)", "Diabetes Care Hemoglobin Testing", "0.81", "314", "255", "2014/01-2014/12" ]
+, [ "row-b5ki~wu8a.aur7", "00000000-0000-0000-9040-D4ECF0CA23DC", 0, 1453322136, null, 1453322136, null, "{ }", "7", "Ogden (Downtown)", "Chlamydia Screening (CHL)", "0.46", "436", "199", "2014/01-2014/12" ]
+, [ "row-ur9y~pb3z_9bu3", "00000000-0000-0000-A4B2-C9D71AFB3D0E", 0, 1453322136, null, 1453322136, null, "{ }", "30.1", "Taylorsville (West)", "Chlamydia Screening (CHL)", "0.39", "443", "174", "2014/01-2014/12" ]
+, [ "row-bbj7_jsym_mau6", "00000000-0000-0000-3B21-8BA5B7AF70D3", 0, 1453322136, null, 1453322136, null, "{ }", "42", "American Fork/Alpine", "Chlamydia Screening (CHL)", "0.25", "1027", "256", "2014/01-2014/12" ]
+, [ "row-riew-zqbq-cfpd", "00000000-0000-0000-B0CF-8383751E13B5", 0, 1453322136, null, 1453322136, null, "{ }", "50", "Utah Co (South)", "Wellchild Visits in first 15 months of life (W15)", "0.54", "94", "51", "2014/01-2014/12" ]
+, [ "row-7vzq.7k8z~b3yf", "00000000-0000-0000-21DF-E2BC5E4A458B", 0, 1453322136, null, 1453322136, null, "{ }", "1", "Brigham City", "Wellchild Visits in first 15 months of life (W15)", "0.44", "34", "15", "2014/01-2014/12" ]
+, [ "row-bcn7~vrgi-a66q", "00000000-0000-0000-9E79-142B4D88C07A", 0, 1453322136, null, 1453322136, null, "{ }", "44", "Orem (North)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.54", "237", "110", "2014/01-2014/12" ]
+, [ "row-7gus_ibsp.hex5", "00000000-0000-0000-6A19-C35438C48C4A", 0, 1453322136, null, 1453322136, null, "{ }", "13", "Syracuse/Kaysville", "Diabetes Care Hemoglobin Testing", "0.86", "804", "692", "2014/01-2014/12" ]
+, [ "row-k22n_a9rt.ggu2", "00000000-0000-0000-AC4A-CAA4CD304E44", 0, 1453322136, null, 1453322136, null, "{ }", "1", "Brigham City", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.39", "148", "90", "2014/01-2014/12" ]
+, [ "row-2nut-8dwd.88b4", "00000000-0000-0000-FD39-6E74CAE63E81", 0, 1453322136, null, 1453322136, null, "{ }", "36", "Sandy (Center)", "Chlamydia Screening (CHL)", "0.39", "630", "244", "2014/01-2014/12" ]
+, [ "row-a9r5~yby6_tadf", "00000000-0000-0000-BCF4-45DC093514AB", 0, 1453322136, null, 1453322136, null, "{ }", "53", "TriCounty LHD", "Wellchild Visits in first 15 months of life (W15)", "0.21", "99", "21", "2014/01-2014/12" ]
+, [ "row-a5sd.gp6e~mram", "00000000-0000-0000-3145-092840326A5A", 0, 1453322136, null, 1453322136, null, "{ }", "33.200000000000003", "West Jordan (NE) V2", "Wellchild Visits in first 15 months of life (W15)", "0.46", "65", "30", "2014/01-2014/12" ]
+, [ "row-dwf5.w98s_dfnt", "00000000-0000-0000-11E6-AF482239A456", 0, 1453322136, null, 1453322136, null, "{ }", "40", "Tooele Co", "Chlamydia Screening (CHL)", "0.42", "762", "317", "2014/01-2014/12" ]
+, [ "row-m6vt.k2u5-nmrg", "00000000-0000-0000-5B6F-1D21257DD9C7", 0, 1453322136, null, 1453322136, null, "{ }", "34.1", "West Jordan (SE)", "Chlamydia Screening (CHL)", "0.34", "462", "158", "2014/01-2014/12" ]
+, [ "row-wic5_ps77~79hh", "00000000-0000-0000-9CC5-618AFEE8678E", 0, 1453322136, null, 1453322136, null, "{ }", "26", "Millcreek", "Chlamydia Screening (CHL)", "0.35", "616", "214", "2014/01-2014/12" ]
+, [ "row-qykj~u7xq.pqcg", "00000000-0000-0000-D6E6-39E37E76A699", 0, 1453322136, null, 1453322136, null, "{ }", "16", "Bountiful", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.63", "198", "74", "2014/01-2014/12" ]
+, [ "row-b6qt-49mg-8t44", "00000000-0000-0000-8446-26B46BFF68A9", 0, 1453322136, null, 1453322136, null, "{ }", "2", "Box Elder County (Other)", "Wellchild Visits in first 15 months of life (W15)", "0.31", "26", "8", "2014/01-2014/12" ]
+, [ "row-m6s3-rvuz~9ut4", "00000000-0000-0000-DD54-342EADCDD14C", 0, 1453322136, null, 1453322136, null, "{ }", "44", "Orem (North)", "Chlamydia Screening (CHL)", "0.26", "479", "123", "2014/01-2014/12" ]
+, [ "row-8rek_n6rj.sjea", "00000000-0000-0000-565C-2C64C1448B1A", 0, 1453322136, null, 1453322136, null, "{ }", "16", "Bountiful", "Breast Cancer Screening", "0.6", "1926", "1161", "2014/01-2014/12" ]
+, [ "row-vcxs~yqec.93wd", "00000000-0000-0000-4218-9991710B0101", 0, 1453322136, null, 1453322136, null, "{ }", "57", "Grand/San Juan Counties", "Diabetes Care Hemoglobin Testing", "0.73", "120", "87", "2014/01-2014/12" ]
+, [ "row-5ak2_3rgv-5hhs", "00000000-0000-0000-62C8-7C2A6745705E", 0, 1453322136, null, 1453322136, null, "{ }", "17", "SLC (Rose Park)", "Diabetes Care Hemoglobin Testing", "0.81", "442", "359", "2014/01-2014/12" ]
+, [ "row-8yzm~5jtk.5vgf", "00000000-0000-0000-3557-6550E724F011", 0, 1453322136, null, 1453322136, null, "{ }", "33.200000000000003", "West Jordan (NE) V2", "Breast Cancer Screening", "0.56", "1099", "619", "2014/01-2014/12" ]
+, [ "row-jy3r.cj5c-awrg", "00000000-0000-0000-3BBA-8CBAFDE286E7", 0, 1453322136, null, 1453322136, null, "{ }", "43", "Pleasant Grove/Lindon", "Wellchild Visits in first 15 months of life (W15)", "0.46", "213", "98", "2014/01-2014/12" ]
+, [ "row-asnp_2vdy_5wu6", "00000000-0000-0000-677A-384AA953D0A3", 0, 1453322136, null, 1453322136, null, "{ }", "10", "Riverdale", "Wellchild Visits in first 15 months of life (W15)", "0.51", "53", "27", "2014/01-2014/12" ]
+, [ "row-r3gp-hveg.vsfh", "00000000-0000-0000-D4BE-0883DEB18C97", 0, 1453322136, null, 1453322136, null, "{ }", "48", "Provo (South)", "Breast Cancer Screening", "0.56", "876", "491", "2014/01-2014/12" ]
+, [ "row-utpj~mk2k.4dck", "00000000-0000-0000-DAC7-92583FCD2D57", 0, 1453322136, null, 1453322136, null, "{ }", "23.1", "West Valley (East) V2", "Wellchild Visits in first 15 months of life (W15)", "0.41", "84", "34", "2014/01-2014/12" ]
+, [ "row-uvjb.yc5s~dbga", "00000000-0000-0000-E14B-FE2D3D92FB2C", 0, 1453322136, null, 1453322136, null, "{ }", "22", "West Valley (West)", "Diabetes Care Hemoglobin Testing", "0.84", "1354", "1134", "2014/01-2014/12" ]
+, [ "row-8wix.2vdv-p9un", "00000000-0000-0000-A4BB-379EB3FCA2B8", 0, 1453322136, null, 1453322136, null, "{ }", "12", "Layton", "Wellchild Visits in first 15 months of life (W15)", "0.45", "213", "96", "2014/01-2014/12" ]
+, [ "row-tgsw.vuy2.ezjp", "00000000-0000-0000-A748-393C058A983A", 0, 1453322136, null, 1453322136, null, "{ }", "29.1", "Kearns V2", "Wellchild Visits in first 15 months of life (W15)", "0.36", "112", "40", "2014/01-2014/12" ]
+, [ "row-r7d4~ky5i.g4uu", "00000000-0000-0000-0F69-D178B20090E4", 0, 1453322136, null, 1453322136, null, "{ }", "36", "Sandy (Center)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.56", "230", "102", "2014/01-2014/12" ]
+, [ "row-da54.xg9w-ce4q", "00000000-0000-0000-1FBC-C6A1999A7433", 0, 1453322136, null, 1453322136, null, "{ }", "60", "Cedar City", "Diabetes Care Hemoglobin Testing", "0.72", "294", "212", "2014/01-2014/12" ]
+, [ "row-nenk.e5m4~ytbi", "00000000-0000-0000-6FAC-046C9EDB3337", 0, 1453322136, null, 1453322136, null, "{ }", "46", "Orem (East)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.54", "189", "87", "2014/01-2014/12" ]
+, [ "row-yvmt-3z6p.jc3b", "00000000-0000-0000-8C69-C7F93EE7B094", 0, 1453322136, null, 1453322136, null, "{ }", "56", "Carbon/Emery Counties", "Chlamydia Screening (CHL)", "0.25", "233", "59", "2014/01-2014/12" ]
+, [ "row-vx4w~2wps.v325", "00000000-0000-0000-88D8-554C12EE52E7", 0, 1453322136, null, 1453322136, null, "{ }", "44", "Orem (North)", "Diabetes Care Hemoglobin Testing", "0.87", "518", "450", "2014/01-2014/12" ]
+, [ "row-br52_b4db.bghi", "00000000-0000-0000-F979-CCDA037A52F4", 0, 1453322136, null, 1453322136, null, "{ }", null, "Unknown", "Wellchild Visits in first 15 months of life (W15)", "0.47", "99", "46", "2014/01-2014/12" ]
+, [ "row-pbvd_j6vb-fi3e", "00000000-0000-0000-D644-7CF4174DA8F1", 0, 1453322136, null, 1453322136, null, "{ }", "3", "Logan", "Wellchild Visits in first 15 months of life (W15)", "0.25", "75", "19", "2014/01-2014/12" ]
+, [ "row-z8ns~e4zy.m26g", "00000000-0000-0000-DBA1-7D0C5E1AA266", 0, 1453322136, null, 1453322136, null, "{ }", "39", "Riverton/Draper", "Breast Cancer Screening", "0.57", "3382", "1941", "2014/01-2014/12" ]
+, [ "row-uwnp-xcsq~t7gh", "00000000-0000-0000-045F-FB889A5C7EDB", 0, 1453322136, null, 1453322136, null, "{ }", "31", "Murray", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.41", "125", "74", "2014/01-2014/12" ]
+, [ "row-wwmg.vf3h.d4sm", "00000000-0000-0000-1E9F-BDC27D6F11F0", 0, 1453322136, null, 1453322136, null, "{ }", "12", "Layton", "Diabetes Care Hemoglobin Testing", "0.86", "947", "813", "2014/01-2014/12" ]
+, [ "row-jqjc~r74u_txq4", "00000000-0000-0000-0169-DD525F0B626D", 0, 1453322136, null, 1453322136, null, "{ }", "27", "Holladay", "Wellchild Visits in first 15 months of life (W15)", "0.46", "82", "38", "2014/01-2014/12" ]
+, [ "row-vfkp~xc9s_9ekp", "00000000-0000-0000-9979-4BC5A3836A3B", 0, 1453322136, null, 1453322136, null, "{ }", "15", "Woods Cross/North Salt Lake", "Chlamydia Screening (CHL)", "0.36", "349", "125", "2014/01-2014/12" ]
+, [ "row-vmc7~5gk6~b272", "00000000-0000-0000-E3DB-BBAE197757BD", 0, 1453322136, null, 1453322136, null, "{ }", "35", "South Jordan", "Chlamydia Screening (CHL)", "0.31", "906", "277", "2014/01-2014/12" ]
+, [ "row-hrej_pc7x_q8tb", "00000000-0000-0000-73B2-ADDC3753D101", 0, 1453322136, null, 1453322136, null, "{ }", "13", "Syracuse/Kaysville", "Wellchild Visits in first 15 months of life (W15)", "0.48", "150", "72", "2014/01-2014/12" ]
+, [ "row-cdvr.sjkr_h4at", "00000000-0000-0000-9AA0-6501C9B0023C", 0, 1453322136, null, 1453322136, null, "{ }", "31", "Murray", "Diabetes Care Hemoglobin Testing", "0.83", "396", "330", "2014/01-2014/12" ]
+, [ "row-35tz-chmq-ijhf", "00000000-0000-0000-337F-01A19A8C798C", 0, 1453322136, null, 1453322136, null, "{ }", "37", "Sandy (NE)", "Wellchild Visits in first 15 months of life (W15)", "0.49", "49", "24", "2014/01-2014/12" ]
+, [ "row-2b2t-tjm6_2iqe", "00000000-0000-0000-148C-05A9DB398DAA", 0, 1453322136, null, 1453322136, null, "{ }", "38", "Sandy (SE)", "Wellchild Visits in first 15 months of life (W15)", "0.49", "37", "18", "2014/01-2014/12" ]
+, [ "row-ngam-idua-6nsw", "00000000-0000-0000-A3C6-45889D0F083C", 0, 1453322136, null, 1453322136, null, "{ }", "11", "Clearfield/Hill AFB", "Diabetes Care Hemoglobin Testing", "0.85", "819", "694", "2014/01-2014/12" ]
+, [ "row-9k7p_54nx~74hi", "00000000-0000-0000-30BD-18D8ADCEC3E6", 0, 1453322136, null, 1453322136, null, "{ }", "30.1", "Taylorsville (West)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.41", "189", "112", "2014/01-2014/12" ]
+, [ "row-thvg.vv2u~9ewj", "00000000-0000-0000-F59D-0F553958E72D", 0, 1453322136, null, 1453322136, null, "{ }", "15", "Woods Cross/North Salt Lake", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.56", "146", "64", "2014/01-2014/12" ]
+, [ "row-73h7.2kfc_q7uy", "00000000-0000-0000-86F8-6EB5AC602E0F", 0, 1453322136, null, 1453322136, null, "{ }", "20", "Magna", "Diabetes Care Hemoglobin Testing", "0.84", "460", "384", "2014/01-2014/12" ]
+, [ "row-jbqg_ac2m-yhux", "00000000-0000-0000-7E2C-9D9DFC8287C9", 0, 1453322136, null, 1453322136, null, "{ }", "34.200000000000003", "West Jordan (West)/Copperton", "Wellchild Visits in first 15 months of life (W15)", "0.42", "115", "48", "2014/01-2014/12" ]
+, [ "row-uurb_fyht.fksk", "00000000-0000-0000-5F16-E2B090F1BAF9", 0, 1453322136, null, 1453322136, null, "{ }", "30.1", "Taylorsville (West)", "Diabetes Care Hemoglobin Testing", "0.83", "721", "597", "2014/01-2014/12" ]
+, [ "row-5iif-gtiy-qx3t", "00000000-0000-0000-9079-C78A45D932D7", 0, 1453322136, null, 1453322136, null, "{ }", "43", "Pleasant Grove/Lindon", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.53", "500", "233", "2014/01-2014/12" ]
+, [ "row-vqdz-7m53-5g5w", "00000000-0000-0000-6D8C-100C84B023AC", 0, 1453322136, null, 1453322136, null, "{ }", "56", "Carbon/Emery Counties", "Diabetes Care Hemoglobin Testing", "0.68", "201", "137", "2014/01-2014/12" ]
+, [ "row-5nc8-t8yn~89ig", "00000000-0000-0000-F6F7-453EAB480A4B", 0, 1453322136, null, 1453322136, null, "{ }", "13", "Syracuse/Kaysville", "Breast Cancer Screening", "0.61", "1959", "1186", "2014/01-2014/12" ]
+, [ "row-r22m~k83u-s4k2", "00000000-0000-0000-7428-335D732599A7", 0, 1453322136, null, 1453322136, null, "{ }", "14", "Farmington/Centerville", "Chlamydia Screening (CHL)", "0.3", "561", "170", "2014/01-2014/12" ]
+, [ "row-bkbf-yv9i-ztjz", "00000000-0000-0000-DA3B-7F72A432B017", 0, 1453322136, null, 1453322136, null, "{ }", "1", "Brigham City", "Breast Cancer Screening", "0.59", "861", "510", "2014/01-2014/12" ]
+, [ "row-2c6k-vid9~gceb", "00000000-0000-0000-A2A0-DDF04BA46A75", 0, 1453322136, null, 1453322136, null, "{ }", "34.200000000000003", "West Jordan (West)/Copperton", "Breast Cancer Screening", "0.56", "929", "519", "2014/01-2014/12" ]
+, [ "row-iwt4_qciw_dbud", "00000000-0000-0000-9D45-23210F7470E9", 0, 1453322136, null, 1453322136, null, "{ }", "21", "SLC (Glendale)", "Chlamydia Screening (CHL)", "0.44", "239", "105", "2014/01-2014/12" ]
+, [ "row-53ir-wtm4.8gmb", "00000000-0000-0000-1669-FD7E7565BA57", 0, 1453322136, null, 1453322136, null, "{ }", "54", "Juab/Millard/Sanpete Counties", "Diabetes Care Hemoglobin Testing", "0.69", "354", "243", "2014/01-2014/12" ]
+, [ "row-d74h~wf4t_xnxx", "00000000-0000-0000-4872-A03A478C4AA2", 0, 1453322136, null, 1453322136, null, "{ }", "42", "American Fork/Alpine", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.49", "462", "238", "2014/01-2014/12" ]
+, [ "row-b245~6c5b_ryf5", "00000000-0000-0000-2A80-EBD5E0A97742", 0, 1453322136, null, 1453322136, null, "{ }", "58", "St George", "Chlamydia Screening (CHL)", "0.29", "602", "177", "2014/01-2014/12" ]
+, [ "row-ec6a~keb9~btsg", "00000000-0000-0000-21D1-3360E4DAD259", 0, 1453322136, null, 1453322136, null, "{ }", "24", "SLC (Downtown)", "Diabetes Care Hemoglobin Testing", "0.83", "350", "291", "2014/01-2014/12" ]
+, [ "row-s5rw.kzk6-i4tq", "00000000-0000-0000-AB02-B236229464BD", 0, 1453322136, null, 1453322136, null, "{ }", "55", "Sevier/Piute/Wayne Counties", "Breast Cancer Screening", "0.48", "425", "203", "2014/01-2014/12" ]
+, [ "row-geiq_5v4z~46kd", "00000000-0000-0000-683E-5B1A8776534E", 0, 1453322136, null, 1453322136, null, "{ }", "46", "Orem (East)", "Breast Cancer Screening", "0.62", "1018", "633", "2014/01-2014/12" ]
+, [ "row-p4en-4u38.yvce", "00000000-0000-0000-4571-0471641BBE7A", 0, 1453322136, null, 1453322136, null, "{ }", "51", "Summit County", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.48", "219", "113", "2014/01-2014/12" ]
+, [ "row-te7b~9wur_rvme", "00000000-0000-0000-9E8F-F14008748E36", 0, 1453322136, null, 1453322136, null, "{ }", "49", "Springville/Spanish Fork", "Diabetes Care Hemoglobin Testing", "0.86", "1028", "885", "2014/01-2014/12" ]
+, [ "row-35un~r52e~cc8t", "00000000-0000-0000-510C-BE8C4A5BD150", 0, 1453322136, null, 1453322136, null, "{ }", "50", "Utah Co (South)", "Chlamydia Screening (CHL)", "0.31", "471", "144", "2014/01-2014/12" ]
+, [ "row-a8s6~4yis.7fpq", "00000000-0000-0000-54D5-633108976BBC", 0, 1453322136, null, 1453322136, null, "{ }", "8", "South Ogden", "Wellchild Visits in first 15 months of life (W15)", "0.55", "65", "36", "2014/01-2014/12" ]
+, [ "row-2fh8_9n8y.xqqz", "00000000-0000-0000-3A92-CEFBFCB9E49E", 0, 1453322136, null, 1453322136, null, "{ }", "42", "American Fork/Alpine", "Diabetes Care Hemoglobin Testing", "0.84", "667", "561", "2014/01-2014/12" ]
+, [ "row-2se2~5ahz_wj6x", "00000000-0000-0000-6B2B-63C3DFA1C799", 0, 1453322136, null, 1453322136, null, "{ }", "39", "Riverton/Draper", "Chlamydia Screening (CHL)", "0.31", "1739", "542", "2014/01-2014/12" ]
+, [ "row-jbjf-na92_ujya", "00000000-0000-0000-8743-8175CEB87017", 0, 1453322136, null, 1453322136, null, "{ }", "36", "Sandy (Center)", "Wellchild Visits in first 15 months of life (W15)", "0.47", "127", "60", "2014/01-2014/12" ]
+, [ "row-gcvg.8jfu_b2x4", "00000000-0000-0000-3DD5-030167ED5699", 0, 1453322136, null, 1453322136, null, "{ }", "13", "Syracuse/Kaysville", "Chlamydia Screening (CHL)", "0.3", "902", "268", "2014/01-2014/12" ]
+, [ "row-wzyw_dvi2-f53p", "00000000-0000-0000-26E7-39A19DAA16F5", 0, 1453322136, null, 1453322136, null, "{ }", "61", "Southwest LHD (Other)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.32", "56", "38", "2014/01-2014/12" ]
+, [ "row-fv8x.2478-qani", "00000000-0000-0000-0240-4C69CABB0FD6", 0, 1453322136, null, 1453322136, null, "{ }", "40", "Tooele Co", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.47", "288", "153", "2014/01-2014/12" ]
+, [ "row-rqiw~ps9f~wg5t", "00000000-0000-0000-A833-1A5D65A0B5E1", 0, 1453322136, null, 1453322136, null, "{ }", "51", "Summit County", "Wellchild Visits in first 15 months of life (W15)", "0.67", "54", "36", "2014/01-2014/12" ]
+, [ "row-rxes_igpp_wmjs", "00000000-0000-0000-EA61-4A2CE8C61CC7", 0, 1453322136, null, 1453322136, null, "{ }", "50", "Utah Co (South)", "Diabetes Care Hemoglobin Testing", "0.84", "458", "386", "2014/01-2014/12" ]
+, [ "row-7bp8-qud7-xq8w", "00000000-0000-0000-62A7-7D8C0A920D43", 0, 1453322136, null, 1453322136, null, "{ }", "31", "Murray", "Breast Cancer Screening", "0.56", "1065", "597", "2014/01-2014/12" ]
+, [ "row-282j_6wt2_si7f", "00000000-0000-0000-8DD8-826A7C0885AB", 0, 1453322136, null, 1453322136, null, "{ }", "8", "South Ogden", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.39", "109", "66", "2014/01-2014/12" ]
+, [ "row-2922_57ht_b2dw", "00000000-0000-0000-E20F-A4D41F56DD11", 0, 1453322136, null, 1453322136, null, "{ }", "59", "Washington Co (Other)", "Diabetes Care Hemoglobin Testing", "0.76", "642", "490", "2014/01-2014/12" ]
+, [ "row-f7b9-eyj5-wxpw", "00000000-0000-0000-E070-045D26D902B0", 0, 1453322136, null, 1453322136, null, "{ }", "32", "Midvale", "Breast Cancer Screening", "0.54", "902", "490", "2014/01-2014/12" ]
+, [ "row-6dmh.98rx.zbtf", "00000000-0000-0000-E9F8-5BC1D1C224D0", 0, 1453322136, null, 1453322136, null, "{ }", "30", "Taylorsville (East)/Murray (West)", "Wellchild Visits in first 15 months of life (W15)", "0.43", "67", "29", "2014/01-2014/12" ]
+, [ "row-nukm_4bqf.mfig", "00000000-0000-0000-96A6-6BEF5FD60A9B", 0, 1453322136, null, 1453322136, null, "{ }", "11", "Clearfield/Hill AFB", "Breast Cancer Screening", "0.57", "1422", "815", "2014/01-2014/12" ]
+, [ "row-a928-ghhp_bc85", "00000000-0000-0000-B282-F2DCCA27E624", 0, 1453322136, null, 1453322136, null, "{ }", "10", "Riverdale", "Breast Cancer Screening", "0.66", "783", "513", "2014/01-2014/12" ]
+, [ "row-kbn5.7vhg-dek2", "00000000-0000-0000-D64F-4D28F5949819", 0, 1453322136, null, 1453322136, null, "{ }", "23.1", "West Valley (East) V2", "Breast Cancer Screening", "0.49", "1269", "624", "2014/01-2014/12" ]
+, [ "row-4p7p-8t7d_cdpd", "00000000-0000-0000-EB4A-590ECE048A66", 0, 1453322136, null, 1453322136, null, "{ }", "47", "Provo (North)/BYU", "Breast Cancer Screening", "0.64", "1159", "745", "2014/01-2014/12" ]
+, [ "row-syx9_u59z_6dp5", "00000000-0000-0000-295B-1643B2FC33AE", 0, 1453322136, null, 1453322136, null, "{ }", "50", "Utah Co (South)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.44", "178", "99", "2014/01-2014/12" ]
+, [ "row-xaba~mjvu_345h", "00000000-0000-0000-CB0E-8891E481656D", 0, 1453322136, null, 1453322136, null, "{ }", "23.1", "West Valley (East) V2", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.46", "180", "97", "2014/01-2014/12" ]
+, [ "row-9eeh.j4a9-mdsj", "00000000-0000-0000-F29A-BE980427003E", 0, 1453322136, null, 1453322136, null, "{ }", "55", "Sevier/Piute/Wayne Counties", "Chlamydia Screening (CHL)", "0.28", "174", "48", "2014/01-2014/12" ]
+, [ "row-hg3j-dkf6_rcma", "00000000-0000-0000-CB57-2E2291754177", 0, 1453322136, null, 1453322136, null, "{ }", "41", "Lehi/Cedar Valley", "Chlamydia Screening (CHL)", "0.27", "1129", "299", "2014/01-2014/12" ]
+, [ "row-yass.qtxe.9rbx", "00000000-0000-0000-19E5-7A3292CA9FAB", 0, 1453322136, null, 1453322136, null, "{ }", "9", "Roy/Hooper", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.52", "200", "97", "2014/01-2014/12" ]
+, [ "row-kqi5_mu4a-unb9", "00000000-0000-0000-89D1-02B7A150184D", 0, 1453322136, null, 1453322136, null, "{ }", "59", "Washington Co (Other)", "Wellchild Visits in first 15 months of life (W15)", "0.31", "74", "23", "2014/01-2014/12" ]
+, [ "row-g3v9_bhzt.ctgx", "00000000-0000-0000-A629-101A77460397", 0, 1453322136, null, 1453322136, null, "{ }", "21", "SLC (Glendale)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.45", "91", "50", "2014/01-2014/12" ]
+, [ "row-4svd~5bfk_p2t3", "00000000-0000-0000-40C2-C6C2E4E20321", 0, 1453322136, null, 1453322136, null, "{ }", "23.1", "West Valley (East) V2", "Chlamydia Screening (CHL)", "0.53", "476", "251", "2014/01-2014/12" ]
+, [ "row-c88u-vr2b-2yxx", "00000000-0000-0000-A6EB-477292F629E2", 0, 1453322136, null, 1453322136, null, "{ }", "2", "Box Elder County (Other)", "Breast Cancer Screening", "0.63", "793", "499", "2014/01-2014/12" ]
+, [ "row-3f7h~gvq8-vi33", "00000000-0000-0000-137B-53F62BC48004", 0, 1453322136, null, 1453322136, null, "{ }", "8", "South Ogden", "Chlamydia Screening (CHL)", "0.38", "442", "166", "2014/01-2014/12" ]
+, [ "row-d9dp~c2an.6x8z", "00000000-0000-0000-5820-EF076F6D6BFB", 0, 1453322136, null, 1453322136, null, "{ }", "33.200000000000003", "West Jordan (NE) V2", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.53", "190", "89", "2014/01-2014/12" ]
+, [ "row-ma56_b8jf.ggsd", "00000000-0000-0000-F2D3-78C8EBF04EF9", 0, 1453322136, null, 1453322136, null, "{ }", "3", "Logan", "Breast Cancer Screening", "0.68", "1856", "1258", "2014/01-2014/12" ]
+, [ "row-b54a-kpfa_qbm5", "00000000-0000-0000-1557-7394C65D510E", 0, 1453322136, null, 1453322136, null, "{ }", "5", "Ben Lomond", "Wellchild Visits in first 15 months of life (W15)", "0.41", "120", "49", "2014/01-2014/12" ]
+, [ "row-tidu-y33y~5gt8", "00000000-0000-0000-5852-2C06FEB26F03", 0, 1453322136, null, 1453322136, null, "{ }", "26", "Millcreek", "Wellchild Visits in first 15 months of life (W15)", "0.34", "145", "49", "2014/01-2014/12" ]
+, [ "row-s333-k684-ifnr", "00000000-0000-0000-5825-F2AB7C2E6B3D", 0, 1453322136, null, 1453322136, null, "{ }", "30", "Taylorsville (East)/Murray (West)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.5", "147", "74", "2014/01-2014/12" ]
+, [ "row-r7vj_em57_mm5n", "00000000-0000-0000-C51C-0299E2BD632C", 0, 1453322136, null, 1453322136, null, "{ }", "3", "Logan", "Chlamydia Screening (CHL)", "0.28", "786", "216", "2014/01-2014/12" ]
+, [ "row-j8bu~tp7i~vrnk", "00000000-0000-0000-2719-E23B80448822", 0, 1453322136, null, 1453322136, null, "{ }", "12", "Layton", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.49", "321", "165", "2014/01-2014/12" ]
+, [ "row-qy3r~eaji.k83k", "00000000-0000-0000-6921-8139B8169DF2", 0, 1453322136, null, 1453322136, null, "{ }", "43", "Pleasant Grove/Lindon", "Breast Cancer Screening", "0.56", "1613", "899", "2014/01-2014/12" ]
+, [ "row-s6xj~i5w9_xrqu", "00000000-0000-0000-17DA-CBBD7D7C67A1", 0, 1453322136, null, 1453322136, null, "{ }", "20", "Magna", "Chlamydia Screening (CHL)", "0.48", "352", "168", "2014/01-2014/12" ]
+, [ "row-qgk2.xtef.zmsu", "00000000-0000-0000-DF77-3F9128C7BBA2", 0, 1453322136, null, 1453322136, null, "{ }", "24", "SLC (Downtown)", "Wellchild Visits in first 15 months of life (W15)", "0.29", "66", "19", "2014/01-2014/12" ]
+, [ "row-t367.kh7c.cxk7", "00000000-0000-0000-6A3A-62ACAA4B1851", 0, 1453322136, null, 1453322136, null, "{ }", "27", "Holladay", "Chlamydia Screening (CHL)", "0.33", "559", "184", "2014/01-2014/12" ]
+, [ "row-gw4c-fgwr-k8av", "00000000-0000-0000-126F-7253277239D1", 0, 1453322136, null, 1453322136, null, "{ }", "16", "Bountiful", "Diabetes Care Hemoglobin Testing", "0.77", "657", "505", "2014/01-2014/12" ]
+, [ "row-qcy9-4a8u-2qb8", "00000000-0000-0000-63FF-C90764510990", 0, 1453322136, null, 1453322136, null, "{ }", "2", "Box Elder County (Other)", "Chlamydia Screening (CHL)", "0.32", "274", "88", "2014/01-2014/12" ]
+, [ "row-5dqd.h4aj_gim2", "00000000-0000-0000-8BEE-72114B637743", 0, 1453322136, null, 1453322136, null, "{ }", "10", "Riverdale", "Chlamydia Screening (CHL)", "0.39", "317", "123", "2014/01-2014/12" ]
+, [ "row-bqwv-qas9~zbfv", "00000000-0000-0000-3178-6CE86B72B7A1", 0, 1453322136, null, 1453322136, null, "{ }", "2", "Box Elder County (Other)", "Diabetes Care Hemoglobin Testing", "0.81", "355", "288", "2014/01-2014/12" ]
+, [ "row-qkej-ata6.pmun", "00000000-0000-0000-7F76-11E2D329A0E3", 0, 1453322136, null, 1453322136, null, "{ }", "19", "SLC (Foothill/U of U)", "Breast Cancer Screening", "0.66", "830", "548", "2014/01-2014/12" ]
+, [ "row-p9z8_mdbg~ttpf", "00000000-0000-0000-7D3A-4BABC5405D1A", 0, 1453322136, null, 1453322136, null, "{ }", "24", "SLC (Downtown)", "Chlamydia Screening (CHL)", "0.44", "385", "170", "2014/01-2014/12" ]
+, [ "row-b9sh.f79g-e3h4", "00000000-0000-0000-C78B-808523D77B2E", 0, 1453322136, null, 1453322136, null, "{ }", "46", "Orem (East)", "Diabetes Care Hemoglobin Testing", "0.82", "335", "276", "2014/01-2014/12" ]
+, [ "row-vz9c_gr4a~87j8", "00000000-0000-0000-2020-24A43E8B1495", 0, 1453322136, null, 1453322136, null, "{ }", "52", "Wasatch County", "Breast Cancer Screening", "0.58", "774", "445", "2014/01-2014/12" ]
+, [ "row-ch76-qdg7-gugn", "00000000-0000-0000-B8FD-92B1F1920664", 0, 1453322136, null, 1453322136, null, "{ }", "61", "Southwest LHD (Other)", "Diabetes Care Hemoglobin Testing", "0.66", "103", "68", "2014/01-2014/12" ]
+, [ "row-4u5f-zcfs.zc33", "00000000-0000-0000-5F87-829B27F33191", 0, 1453322136, null, 1453322136, null, "{ }", "22", "West Valley (West)", "Chlamydia Screening (CHL)", "0.47", "1003", "474", "2014/01-2014/12" ]
+, [ "row-9k4x_37ih.wvii", "00000000-0000-0000-6EB2-0DD218749231", 0, 1453322136, null, 1453322136, null, "{ }", "29.1", "Kearns V2", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.39", "165", "101", "2014/01-2014/12" ]
+, [ "row-hkmt_8z82~akkv", "00000000-0000-0000-4E96-D968FB49D728", 0, 1453322136, null, 1453322136, null, "{ }", "11", "Clearfield/Hill AFB", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.45", "291", "161", "2014/01-2014/12" ]
+, [ "row-e4h7.62iv_j3pg", "00000000-0000-0000-ECF4-69946981AA9A", 0, 1453322136, null, 1453322136, null, "{ }", "58", "St George", "Diabetes Care Hemoglobin Testing", "0.78", "744", "578", "2014/01-2014/12" ]
+, [ "row-3eet_3t77_96b7", "00000000-0000-0000-EE1C-D6DAE4733A23", 0, 1453322136, null, 1453322136, null, "{ }", "39", "Riverton/Draper", "Wellchild Visits in first 15 months of life (W15)", "0.49", "321", "158", "2014/01-2014/12" ]
+, [ "row-sjhz.cmrz_r7dd", "00000000-0000-0000-920A-CF226F1C3CB5", 0, 1453322136, null, 1453322136, null, "{ }", "18", "SLC (Avenues)", "Breast Cancer Screening", "0.63", "806", "507", "2014/01-2014/12" ]
+, [ "row-wbta_6uq4-cvg2", "00000000-0000-0000-283E-17564AEDCAA0", 0, 1453322136, null, 1453322136, null, "{ }", "44", "Orem (North)", "Wellchild Visits in first 15 months of life (W15)", "0.42", "120", "50", "2014/01-2014/12" ]
+, [ "row-ruip~8d63-yv3r", "00000000-0000-0000-941C-77DEAE6996FD", 0, 1453322136, null, 1453322136, null, "{ }", "34.1", "West Jordan (SE)", "Wellchild Visits in first 15 months of life (W15)", "0.48", "75", "36", "2014/01-2014/12" ]
+, [ "row-murd-g985-zdvh", "00000000-0000-0000-44B4-355BCB9EB551", 0, 1453322136, null, 1453322136, null, "{ }", "48", "Provo (South)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.54", "215", "99", "2014/01-2014/12" ]
+, [ "row-ncb4-sutk.ipcw", "00000000-0000-0000-9E57-95CA8C3D9A45", 0, 1453322136, null, 1453322136, null, "{ }", "60", "Cedar City", "Wellchild Visits in first 15 months of life (W15)", "0.46", "84", "39", "2014/01-2014/12" ]
+, [ "row-k3rx~38hm~t53b", "00000000-0000-0000-B326-64A4A8DF9168", 0, 1453322136, null, 1453322136, null, "{ }", "45", "Orem (West)", "Chlamydia Screening (CHL)", "0.33", "394", "130", "2014/01-2014/12" ]
+, [ "row-b3gp.ebjq-6tx7", "00000000-0000-0000-FD63-D2B54D35EF3F", 0, 1453322136, null, 1453322136, null, "{ }", "1", "Brigham City", "Chlamydia Screening (CHL)", "0.36", "354", "128", "2014/01-2014/12" ]
+, [ "row-t9v5-vzqg_gdmk", "00000000-0000-0000-E995-A6A90B022EC2", 0, 1453322136, null, 1453322136, null, "{ }", "15", "Woods Cross/North Salt Lake", "Breast Cancer Screening", "0.59", "1061", "627", "2014/01-2014/12" ]
+, [ "row-iejr.h5xv_wdau", "00000000-0000-0000-E272-1B539C1401EF", 0, 1453322136, null, 1453322136, null, "{ }", "37", "Sandy (NE)", "Breast Cancer Screening", "0.64", "1408", "900", "2014/01-2014/12" ]
+, [ "row-6kdb_ecn3.izjv", "00000000-0000-0000-DFEB-969F079CF09A", 0, 1453322136, null, 1453322136, null, "{ }", "8", "South Ogden", "Diabetes Care Hemoglobin Testing", "0.85", "411", "350", "2014/01-2014/12" ]
+, [ "row-uehs_4zd2-n5ig", "00000000-0000-0000-92A0-83817E6E2FCB", 0, 1453322136, null, 1453322136, null, "{ }", "41", "Lehi/Cedar Valley", "Diabetes Care Hemoglobin Testing", "0.82", "941", "775", "2014/01-2014/12" ]
+, [ "row-jgwp.49kx.qyfc", "00000000-0000-0000-3569-686C8CE1EBF0", 0, 1453322136, null, 1453322136, null, "{ }", "57", "Grand/San Juan Counties", "Wellchild Visits in first 15 months of life (W15)", "0.07", "15", "1", "2014/01-2014/12" ]
+, [ "row-mmm9-uy38-ixyu", "00000000-0000-0000-F5E3-D3F844682970", 0, 1453322136, null, 1453322136, null, "{ }", "38", "Sandy (SE)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.57", "150", "64", "2014/01-2014/12" ]
+, [ "row-wxv2-4ad2_5c25", "00000000-0000-0000-DC00-D9CEBB49151C", 0, 1453322136, null, 1453322136, null, "{ }", "18", "SLC (Avenues)", "Chlamydia Screening (CHL)", "0.41", "221", "90", "2014/01-2014/12" ]
+, [ "row-5855.d28q_3ub4", "00000000-0000-0000-6E85-CC4743D65359", 0, 1453322136, null, 1453322136, null, "{ }", "17", "SLC (Rose Park)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.47", "117", "62", "2014/01-2014/12" ]
+, [ "row-etsd_c3iv-jugn", "00000000-0000-0000-875A-DBF5498DFB56", 0, 1453322136, null, 1453322136, null, "{ }", "33.200000000000003", "West Jordan (NE) V2", "Diabetes Care Hemoglobin Testing", "0.82", "563", "459", "2014/01-2014/12" ]
+, [ "row-sfms~5qfp-n8x2", "00000000-0000-0000-DBBE-6A18B447BD74", 0, 1453322136, null, 1453322136, null, "{ }", "20", "Magna", "Wellchild Visits in first 15 months of life (W15)", "0.33", "76", "25", "2014/01-2014/12" ]
+, [ "row-gv22_whn2_p4dk", "00000000-0000-0000-7A96-905B0A17CEE3", 0, 1453322136, null, 1453322136, null, "{ }", "20", "Magna", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.39", "175", "106", "2014/01-2014/12" ]
+, [ "row-pwwg.8ah7-pc9s", "00000000-0000-0000-7531-7CE8EF20668F", 0, 1453322136, null, 1453322136, null, "{ }", "14", "Farmington/Centerville", "Diabetes Care Hemoglobin Testing", "0.81", "534", "433", "2014/01-2014/12" ]
+, [ "row-5tcb_cmg4~83iz", "00000000-0000-0000-B986-EE7B6A218C7F", 0, 1453322136, null, 1453322136, null, "{ }", "60", "Cedar City", "Breast Cancer Screening", "0.52", "1011", "529", "2014/01-2014/12" ]
+, [ "row-np93_gnvn.da92", "00000000-0000-0000-F775-BB7A4D5544A6", 0, 1453322136, null, 1453322136, null, "{ }", "18", "SLC (Avenues)", "Diabetes Care Hemoglobin Testing", "0.75", "155", "116", "2014/01-2014/12" ]
+, [ "row-xhwb.aq7s_kg5w", "00000000-0000-0000-BCED-EFC9FA762CDC", 0, 1453322136, null, 1453322136, null, "{ }", "51", "Summit County", "Chlamydia Screening (CHL)", "0.3", "513", "153", "2014/01-2014/12" ]
+, [ "row-besm-ie4i~s363", "00000000-0000-0000-E03F-24D1B14CCB0B", 0, 1453322136, null, 1453322136, null, "{ }", "39", "Riverton/Draper", "Diabetes Care Hemoglobin Testing", "0.83", "1330", "1099", "2014/01-2014/12" ]
+, [ "row-txys.3c2n_4eze", "00000000-0000-0000-C953-E420C30B499D", 0, 1453322136, null, 1453322136, null, "{ }", "53", "TriCounty LHD", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.49", "108", "55", "2014/01-2014/12" ]
+, [ "row-wuut~j2km_vraa", "00000000-0000-0000-2718-8332C47D305E", 0, 1453322136, null, 1453322136, null, "{ }", "1", "Brigham City", "Diabetes Care Hemoglobin Testing", "0.86", "349", "299", "2014/01-2014/12" ]
+, [ "row-hmkh_7e59-jshn", "00000000-0000-0000-7AA5-DB7D3A5959A2", 0, 1453322136, null, 1453322136, null, "{ }", "44", "Orem (North)", "Breast Cancer Screening", "0.63", "1109", "694", "2014/01-2014/12" ]
+, [ "row-yhci~hssq~q28w", "00000000-0000-0000-A3F1-D26516680A09", 0, 1453322136, null, 1453322136, null, "{ }", "25", "South Salt Lake", "Chlamydia Screening (CHL)", "0.48", "204", "97", "2014/01-2014/12" ]
+, [ "row-u52e.c6yh.3npm", "00000000-0000-0000-ACA2-7821D713C096", 0, 1453322136, null, 1453322136, null, "{ }", "34.1", "West Jordan (SE)", "Breast Cancer Screening", "0.59", "1165", "681", "2014/01-2014/12" ]
+, [ "row-mfkj~gbg3_ixre", "00000000-0000-0000-1DB2-D0A5D03611C0", 0, 1453322136, null, 1453322136, null, "{ }", "41", "Lehi/Cedar Valley", "Breast Cancer Screening", "0.55", "1561", "856", "2014/01-2014/12" ]
+, [ "row-7tgh~xdey_8zih", "00000000-0000-0000-AEDE-F04F45D50E0A", 0, 1453322136, null, 1453322136, null, "{ }", "5", "Ben Lomond", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.27", "181", "132", "2014/01-2014/12" ]
+, [ "row-6hvf~zi4i~pxh3", "00000000-0000-0000-8219-2FF6CA8605F9", 0, 1453322136, null, 1453322136, null, "{ }", "16", "Bountiful", "Wellchild Visits in first 15 months of life (W15)", "0.29", "121", "35", "2014/01-2014/12" ]
+, [ "row-v4xd_w6sx~2ezv", "00000000-0000-0000-D54C-901A1258B812", 0, 1453322136, null, 1453322136, null, "{ }", "35", "South Jordan", "Wellchild Visits in first 15 months of life (W15)", "0.45", "173", "78", "2014/01-2014/12" ]
+, [ "row-8xwd~ixqe_buyx", "00000000-0000-0000-A2C6-9D4DFC39BA59", 0, 1453322136, null, 1453322136, null, "{ }", null, "Unknown", "Breast Cancer Screening", "0.57", "1319", "751", "2014/01-2014/12" ]
+, [ "row-f2dy~nzjc-wwge", "00000000-0000-0000-1E86-5F97BA48FB6C", 0, 1453322136, null, 1453322136, null, "{ }", "7", "Ogden (Downtown)", "Wellchild Visits in first 15 months of life (W15)", "0.43", "73", "31", "2014/01-2014/12" ]
+, [ "row-tcnn.3aaw.vx3w", "00000000-0000-0000-DF10-56EBAE284752", 0, 1453322136, null, 1453322136, null, "{ }", "37", "Sandy (NE)", "Chlamydia Screening (CHL)", "0.29", "298", "86", "2014/01-2014/12" ]
+, [ "row-ixue_bdy3~u8dv", "00000000-0000-0000-97DE-0A741C1FA1EA", 0, 1453322136, null, 1453322136, null, "{ }", "5", "Ben Lomond", "Diabetes Care Hemoglobin Testing", "0.83", "776", "646", "2014/01-2014/12" ]
+, [ "row-5x22_iwgp_he27", "00000000-0000-0000-EDF9-96F3071F991E", 0, 1453322136, null, 1453322136, null, "{ }", "61", "Southwest LHD (Other)", "Chlamydia Screening (CHL)", "0.23", "135", "31", "2014/01-2014/12" ]
+, [ "row-26qq.ytq3_sxdy", "00000000-0000-0000-A2A8-AE4B452C2B9E", 0, 1453322136, null, 1453322136, null, "{ }", "12", "Layton", "Chlamydia Screening (CHL)", "0.34", "1056", "360", "2014/01-2014/12" ]
+, [ "row-ryd3-2tg2~r9q7", "00000000-0000-0000-4EB4-8DCB4504CF6C", 0, 1453322136, null, 1453322136, null, "{ }", "45", "Orem (West)", "Avoidance of Antibiotic Treatment in Adults with Acute Bronchitis (AAB)", "0.53", "150", "70", "2014/01-2014/12" ]
+ ]
+}
